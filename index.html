@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inside The Garden</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1a3a6b;
+    --navy-dark: #0f2347;
+    --navy-mid: #1e4080;
+    --orange: #e8471a;
+    --orange-light: #ff5a28;
+    --white: #ffffff;
+    --off-white: #f4f4f2;
+    --gray-light: #e8e8e8;
+    --gray-mid: #888;
+    --gray-text: #555;
+    --red-stripe: #c0392b;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--white);
+    color: #1a1a1a;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: var(--navy-dark);
+    border-bottom: 3px solid var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 64px;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .logo-icon {
+    width: 44px;
+    height: 44px;
+    border: 2px solid var(--white);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    background: var(--navy);
+  }
+
+  .nav-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+
+  .nav-links a:hover, .nav-links a.active {
+    color: var(--orange);
+  }
+
+  /* ── PAGES ── */
+  .page { display: none; padding-top: 64px; min-height: 100vh; }
+  .page.active { display: block; }
+
+  /* ── HOME HERO ── */
+  .hero {
+    background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 50%, #2255a0 100%);
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(30,64,128,0.6) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(232,71,26,0.08) 0%, transparent 50%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 2rem;
+  }
+
+  .hero h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(64px, 10vw, 110px);
+    font-weight: 800;
+    line-height: 0.9;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+
+  .hero h1 .line1 { color: var(--white); display: block; }
+  .hero h1 .line2 { color: var(--orange); display: block; }
+
+  .hero p {
+    margin-top: 1.5rem;
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  /* ── SECTION LABELS ── */
+  .section-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 6px;
+  }
+
+  /* ── FROM THE COURT SECTION ── */
+  .from-court {
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .from-court-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gray-light);
+    padding-bottom: 1rem;
+  }
+
+  .from-court-header h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111;
+  }
+
+  .all-stories-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .all-stories-link:hover { text-decoration: underline; }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .article-card {
+    border: 1px solid var(--gray-light);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: pointer;
+  }
+
+  .article-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  .article-img {
+    height: 180px;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.3);
+    text-transform: uppercase;
+  }
+
+  .article-body {
+    padding: 1rem 1.25rem 1.25rem;
+  }
+
+  .article-tag {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    padding: 2px 7px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+
+  .article-card h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .article-card p {
+    font-size: 14px;
+    color: var(--gray-text);
+    line-height: 1.5;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--gray-mid);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--gray-mid);
+    font-size: 15px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy-dark);
+    color: var(--white);
+    padding: 3rem 2rem 1.5rem;
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .footer-brand p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 220px;
+  }
+
+  .footer-nav h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 12px;
+  }
+
+  .footer-nav ul { list-style: none; }
+  .footer-nav li { margin-bottom: 8px; }
+  .footer-nav a {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .footer-nav a:hover { color: var(--white); }
+
+  .footer-tagline h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 12px;
+  }
+
+  .footer-tagline p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .footer-bottom {
+    max-width: 1100px;
+    margin: 1.5rem auto 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ── NEWS PAGE ── */
+  .page-hero {
+    background: linear-gradient(135deg, var(--navy-dark), var(--navy));
+    padding: 3rem 2rem;
+  }
+
+  .page-hero .section-label { margin-bottom: 8px; }
+
+  .page-hero h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(42px, 7vw, 64px);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  .filter-bar {
+    padding: 1.5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border: 1px solid var(--gray-light);
+    background: var(--white);
+    color: var(--gray-text);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .filter-btn:hover { border-color: var(--navy); color: var(--navy); }
+  .filter-btn.active {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: var(--white);
+  }
+
+  .news-content {
+    padding: 1rem 2rem 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ── ABOUT PAGE ── */
+  .about-hero {
+    background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 2rem;
+  }
+
+  .about-hero::before {
+    content: 'GARDEN';
+    position: absolute;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 180px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.04);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .about-hero-content { position: relative; z-index: 2; }
+
+  .about-hero h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(48px, 8vw, 80px);
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.9;
+    letter-spacing: -1px;
+  }
+
+  .about-hero h1 .line1 { color: var(--white); display: block; }
+  .about-hero h1 .line2 { color: var(--orange); display: block; }
+
+  .about-hero p {
+    margin-top: 1.25rem;
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    max-width: 500px;
+    line-height: 1.6;
+  }
+
+  /* ── FOUNDERS ── */
+  .founders-section {
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .founders-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  @media (max-width: 700px) {
+    .founders-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; }
+  }
+
+  .founder-card {
+    border: 1px solid var(--gray-light);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .founder-card-header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    padding: 2rem 1.5rem 1.5rem;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .founder-card-header h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  .founder-role {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-top: 4px;
+  }
+
+  .founder-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .founder-body p {
+    font-size: 14px;
+    color: var(--gray-text);
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  .founder-detail-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 6px;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 1.25rem;
+  }
+
+  .tag {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border: 1px solid var(--navy);
+    color: var(--navy);
+    border-radius: 2px;
+  }
+
+  .founder-stat {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 1.25rem;
+  }
+
+  .hottest-take {
+    font-size: 13px;
+    color: var(--gray-text);
+    font-style: italic;
+    border-left: 3px solid var(--orange);
+    padding-left: 10px;
+    line-height: 1.5;
+  }
+
+  /* ── MISSION ── */
+  .mission-section {
+    background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .mission-section .section-label { margin-bottom: 12px; }
+
+  .mission-section h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(36px, 6vw, 60px);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+  }
+
+  .mission-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.75);
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" onclick="showPage('home')">
+    <div class="logo-icon">ITG</div>
+    <span class="nav-title">Inside The Garden</span>
+  </a>
+  <ul class="nav-links">
+    <li><a onclick="showPage('home')" class="active" id="nav-home">Home</a></li>
+    <li><a onclick="showPage('news')" id="nav-news">News</a></li>
+    <li><a onclick="showPage('about')" id="nav-about">About</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════ HOME PAGE ══════════ -->
+<div class="page active" id="page-home">
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        <span class="line1">Inside</span>
+        <span class="line2">The Garden</span>
+      </h1>
+      <p>Your definitive source for New York Knicks news and analysis</p>
+    </div>
+  </section>
+
+  <section class="from-court">
+    <div class="from-court-header">
+      <div>
+        <p class="section-label">Latest</p>
+        <h2>From The Court</h2>
+      </div>
+      <a class="all-stories-link" onclick="showPage('news')">All Stories →</a>
+    </div>
+
+    <div id="home-articles">
+      <div class="empty-state">No stories yet. Check back soon.</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon" style="width:48px;height:48px;font-size:12px;">ITG</div>
+        <p>Your definitive source for New York Knicks news, analysis, and insider content.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('news')">All Articles</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-tagline">
+        <h4>From The Garden</h4>
+        <p>Bringing you closer to the court, one story at a time.</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Inside the Garden. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- ══════════ NEWS PAGE ══════════ -->
+<div class="page" id="page-news">
+
+  <div class="page-hero">
+    <div style="max-width:1100px;margin:0 auto;">
+      <p class="section-label">All Content</p>
+      <h1>The Full Court</h1>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterArticles('all', this)">All</button>
+    <button class="filter-btn" onclick="filterArticles('news', this)">News</button>
+    <button class="filter-btn" onclick="filterArticles('analysis', this)">Analysis</button>
+    <button class="filter-btn" onclick="filterArticles('trade-rumors', this)">Trade Rumors</button>
+    <button class="filter-btn" onclick="filterArticles('game-recap', this)">Game Recap</button>
+    <button class="filter-btn" onclick="filterArticles('opinion', this)">Opinion</button>
+    <button class="filter-btn" onclick="filterArticles('feature', this)">Feature</button>
+  </div>
+
+  <div class="news-content">
+    <div id="news-articles">
+      <div class="empty-state">No articles found in this category.</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon" style="width:48px;height:48px;font-size:12px;">ITG</div>
+        <p>Your definitive source for New York Knicks news, analysis, and insider content.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('news')">All Articles</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-tagline">
+        <h4>From The Garden</h4>
+        <p>Bringing you closer to the court, one story at a time.</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Inside the Garden. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- ══════════ ABOUT PAGE ══════════ -->
+<div class="page" id="page-about">
+
+  <div class="about-hero">
+    <div class="about-hero-content">
+      <p class="section-label">The Front Office</p>
+      <h1>
+        <span class="line1">About The</span>
+        <span class="line2">Founders</span>
+      </h1>
+      <p>Two lifelong Knicks fans who decided the world needed another voice screaming from the Garden. We bring you the stories, analysis, and hot takes that matter.</p>
+    </div>
+  </div>
+
+  <div class="founders-section">
+    <div class="founders-grid">
+
+      <div class="founder-card">
+        <div class="founder-card-header">
+          <h3>Andrew Vincenti</h3>
+          <p class="founder-role">Co-Founder &amp; Editor-in-Chief</p>
+        </div>
+        <div class="founder-body">
+          <p>A lifelong Knicks fan from the Bronx, Andrew has been covering New York basketball since his college newspaper days. His sharp eye for the game and ability to break down film have made him a trusted voice in the Knicks community.</p>
+          <p class="founder-detail-label">Specialties</p>
+          <div class="tags">
+            <span class="tag">Game Analysis</span>
+            <span class="tag">Draft Coverage</span>
+            <span class="tag">Salary Cap</span>
+          </div>
+          <p class="founder-detail-label">Years in the Game</p>
+          <div class="founder-stat">8+</div>
+          <p class="founder-detail-label">Hottest Take</p>
+          <p class="hottest-take">"The 2024 Knicks would have swept the '99 squad in a 7-game series."</p>
+        </div>
+      </div>
+
+      <div class="founder-card">
+        <div class="founder-card-header">
+          <h3>Matthew Vincenti</h3>
+          <p class="founder-role">Co-Founder &amp; Head of Content</p>
+        </div>
+        <div class="founder-body">
+          <p>Marcus brings the numbers and the narrative. A data-driven writer with a storytelling gift, he's the one who connects the stats to the storylines, giving readers the full picture of what's happening on the court and in the front office.</p>
+          <p class="founder-detail-label">Specialties</p>
+          <div class="tags">
+            <span class="tag">Advanced Analytics</span>
+            <span class="tag">Trade Analysis</span>
+            <span class="tag">Player Profiles</span>
+          </div>
+          <p class="founder-detail-label">Years in the Game</p>
+          <div class="founder-stat">6+</div>
+          <p class="founder-detail-label">Hottest Take</p>
+          <p class="hottest-take">"The triangle offense never died — it just went underground."</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mission-section">
+    <p class="section-label">Our Mission</p>
+    <h2>By Fans, For Fans</h2>
+    <p>Inside the Garden was born out of a simple belief: Knicks fans deserve better coverage. Not the hot-take factory or the doom-and-gloom beat report — real, thoughtful, passionate journalism from people who live and breathe this team. Every article we publish comes from the heart of the Garden.</p>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-icon" style="width:48px;height:48px;font-size:12px;">ITG</div>
+        <p>Your definitive source for New York Knicks news, analysis, and insider content.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a onclick="showPage('home')">Home</a></li>
+          <li><a onclick="showPage('news')">All Articles</a></li>
+          <li><a onclick="showPage('about')">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-tagline">
+        <h4>From The Garden</h4>
+        <p>Bringing you closer to the court, one story at a time.</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Inside the Garden. All rights reserved.</p>
+  </footer>
+</div>
+
+<script>
+  const articles = [
+    // Add articles here as objects: { title, tag, excerpt, date, author }
+    // Example (uncomment to test):
+    // { title: "Knicks Are Built Different This Season", tag: "analysis", excerpt: "Breaking down what makes this roster special.", date: "May 1, 2026", author: "Andrew Vincenti" },
+  ];
+
+  function showPage(name) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    document.getElementById('page-' + name).classList.add('active');
+    document.getElementById('nav-' + name).classList.add('active');
+    window.scrollTo(0, 0);
+  }
+
+  function renderArticles(list, containerId) {
+    const el = document.getElementById(containerId);
+    if (!list.length) {
+      el.innerHTML = '<div class="empty-state">No stories yet. Check back soon.</div>';
+      return;
+    }
+    el.innerHTML = '<div class="articles-grid">' + list.map(a => `
+      <div class="article-card">
+        <div class="article-img">New York Knicks</div>
+        <div class="article-body">
+          <span class="article-tag">${a.tag}</span>
+          <h3>${a.title}</h3>
+          <p>${a.excerpt}</p>
+          <div class="article-meta">
+            <span>${a.date}</span>
+            <span>·</span>
+            <span>${a.author}</span>
+          </div>
+        </div>
+      </div>`).join('') + '</div>';
+  }
+
+  function filterArticles(cat, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filtered = cat === 'all' ? articles : articles.filter(a => a.tag === cat);
+    const el = document.getElementById('news-articles');
+    if (!filtered.length) {
+      el.innerHTML = '<div class="empty-state">No articles found in this category.</div>';
+      return;
+    }
+    renderArticles(filtered, 'news-articles');
+  }
+
+  renderArticles(articles, 'home-articles');
+  renderArticles(articles, 'news-articles');
+</script>
+</body>
+</html>
