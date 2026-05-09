@@ -52,16 +52,16 @@ const articles = [
 
 
       {
-      title: "Knicks are going to win the playoffs",
+      title: "Knicks are the best NBA team",
       tag: "news",
-      excerpt: "This is an article on why the Knicks will win the playoffs.",
+      excerpt: "Knicks are the best.",
       date: "May 9, 2026",
       author: "Andrew Vincenti",
       content: `
-        <p>Start of the article.</p>
+        <p>This is the first paragraph. You can add as many sentences as you want.</p>
         <p>Second paragraph.</p>
         <p>Keep adding as many paragraphs as you need.</p>
-        <p>Adding a new paragraph</p>
+        <p>I accidentally deleted my first screen recording attempt.</p>
       `
     },
 
