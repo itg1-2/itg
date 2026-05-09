@@ -49,20 +49,21 @@ const articles = [
   // ── ARTICLE 1 ───────────────────────────────────────────
   // To add more articles, copy the block below and paste it
   // right after this one (still inside the [ ] brackets).
-  {
-    title: "Why the Raptors Are a Better Franchise Than the Knicks",
-    tag: "opinion",
-    excerpt: "From Kawhi Leonard's iconic shot to their 2019 championship, Toronto has built something New York hasn't come close to matching.",
-    date: "May 9, 2026",
-    author: "Inside The Garden Staff",
-    content: `
-      <p>It is a painful truth that Knicks fans have long refused to accept: the Toronto Raptors, a franchise that did not even exist until 1995, have already lapped the New York Knicks in terms of organizational success, championship hardware, and all-time talent. While Madison Square Garden has hosted some of the most passionate fans in basketball history, passion alone does not win championships — and Toronto has proven that ruthless efficiency, smart drafting, and one transcendent acquisition can do what decades of Knicks mismanagement never could.</p>
-      <p>Start with Kawhi Leonard, a player who in two seasons as a Raptor accomplished more than any Knick has managed across the franchise's entire existence. His buzzer-beater against Philadelphia in the 2019 playoffs — a four-bounce moment that felt ripped from a movie script — remains the single most iconic shot in the last two decades of the sport. No Knick, from Patrick Ewing to Carmelo Anthony to Jalen Brunson, has delivered a moment that comes close. Leonard is simply the best player to ever suit up for a Canadian franchise, and it is not a debate.</p>
-      <p>The 2019 championship run itself was a masterclass in organizational excellence. General Manager Masai Ujiri made a bold, high-risk trade to acquire Leonard, paired him with a quietly elite supporting cast, and watched the Raptors defeat Golden State's dynasty when it mattered most. The Knicks, meanwhile, spent that same era cycling through head coaches, wasting cap space on aging veterans, and missing the playoffs entirely. Toronto won a title. New York won the lottery — and still couldn't get it right.</p>
-      <p>Beyond the championship, the Raptors have cultivated a franchise culture that produces results year after year. They developed Kyle Lowry into an All-Star, turned second-round picks into contributors, and established an identity that did not depend on landing a superstar in free agency. The Knicks have spent thirty years dangling the bright lights of New York in hopes that stars would come, and when they finally did — Carmelo Anthony, for instance — the results were playoff exits and broken promises. Toronto built; New York wished.</p>
-      <p>None of this is meant to dismiss what the Knicks are becoming. The current core, led by Brunson, is exciting and the Garden is electric again. But franchises are judged by their history, their trophies, and their defining moments — and on all three counts, the Raptors have the Knicks beat. A banner hangs in Scotiabank Arena that no amount of fan passion or media market size can erase. Until one hangs in Madison Square Garden, the argument is Toronto's to win.</p>
-    `
-  },
+
+
+      {
+      title: "Knicks are going to win the playoffs",
+      tag: "news",
+      excerpt: "This is an article on why the Knicks will win the playoffs.",
+      date: "May 9, 2026",
+      author: "Andrew Vincenti",
+      content: `
+        <p>Start of the article.</p>
+        <p>Second paragraph.</p>
+        <p>Keep adding as many paragraphs as you need.</p>
+        <p>Adding a new paragraph</p>
+      `
+    },
 
   // ── ADD YOUR NEXT ARTICLE HERE ──────────────────────────
   // Paste a new article block below this comment.
