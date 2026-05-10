@@ -109,7 +109,7 @@ function renderArticles(list, containerId) {
   }
   el.innerHTML = '<div class="articles-grid">' + list.map((a, i) => `
     <div class="article-card" onclick="openArticle(${articles.indexOf(a)})">
-      <div class="article-img">New York Knicks</div>
+      <div class="article-img">Inside the Garden</div>
       <div class="article-body">
         <span class="article-tag">${a.tag}</span>
         <h3>${a.title}</h3>
