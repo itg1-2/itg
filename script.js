@@ -52,16 +52,22 @@ const articles = [
 
 
       {
-      title: "Knicks are the best NBA team",
+      title: "Eastern Conference Finals Preview: Are the Knicks destined for the NBA Finals?",
       tag: "news",
-      excerpt: "Knicks are the best.",
-      date: "May 9, 2026",
+      excerpt: "Can the red-hot Knicks avenge the dissapointment of last season?",
+      date: "May 18, 2026",
       author: "Andrew Vincenti",
       content: `
-        <p>This is the first paragraph. You can add as many sentences as you want.</p>
-        <p>Second paragraph.</p>
-        <p>Keep adding as many paragraphs as you need.</p>
-        <p>I accidentally deleted my first screen recording attempt.</p>
+        <p>Following Cleveland’s 125-94 dismantling of the Detroit Pistons last night, the stage is set for a rematch of the 2023 first round series between Knicks and the Cavaliers, only this time they are fighting for a spot in the NBA Finals.</p>
+        <p>Prediction markets currently give the Knicks upward of a 70% chance to win the series and honestly it's not hard to see why.</p>
+        <p>The Knicks were preseason favorites to come out of the East, and while their regular season campaign was disappointing, the team has found its stride in the postseason, winning its last seven games in dominant fashion. The Orange and Blue have been the hottest team in the East all postseason, behind elite production and marksmanship from Jalen Brunson, the emergence of Karl Anthony Towns as a viable playmaking threat, and a strong team defense that has allowed the fewest points per game of any team these playoffs.</p>
+        <p>While the Knicks have boasted the largest point differential of the postseason so far, their sweep of the Philadelphia 76ers have them entering the conference finals nine days removed from game time action. The team will have to shake off some rust while also looking to reintegrate its two-way star in OG Anunoby, who missed the back half of the 76ers series with a hamstring strain.</p>
+        <p>On the other hand, the Cavaliers are riding into Game 1 in full stride, having survived another game seven to take down the No.1 seed, while also winning four of their last five games. While the Knicks are their toughest challenge yet, the Cavs have the Big 4 of Donovan Mitchell, James Harden, Evan Mobley, and Jarrett Allen to match their opponent’s star talent. The team is battle tested after two hard fought series, and has posted the fourth highest offensive rating in the postseason thus far, but inconsistency plagues The Land.</p>
+        <p>Harden has been incredibly erratic, as while his heroics in overtime of Game 3 against the Pistons saved the season, he has also been a turnover machine, having five games with more turnovers than field goals made. Combine that with Mobley’s unreliable offensive game, streaky shooting form Max Strus, and a defense that ranks 12th of the 16 teams in the postseason and the Cavs look vulnerable entering the Eastern Conference Finals.</p>
+        <p>Ultimately, in the battle between a Cavaliers team trying to make its first Finals appearance without Lebron and a Knicks team hungry to avenge the shortcomings of last season, I have the Knicks comfortably winning in six games.</p>
+        <p>The Knicks have been the better team so far this postseason, they have the best player in the series in Brunson, they have strong point of attack defenders in Anunoby and Mikal Bridges to throw at the Cavs guard tandem, while the Cavs lack anyone to slow down Brunson one-on-one and their inconsistencies on offense will be exploited by the hounding Knicks defense. I think this series goes to six because the Cavs have strong defensive bigs in Allen and last season’s DPOY in Mobley, who can make things hard for Towns, which is only made worse by the uncertainty of what Anunby’s production will look like post-injury.</p>
+        <p>Ultimately, this series feels like the Knicks’ to lose and last season’s heart-crushing loss to the Pacers should fuel them to finally make it over the hump and to the NBA Finals.</p> 
+
       `
     },
 
