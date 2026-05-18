@@ -54,7 +54,7 @@ const articles = [
       {
       title: "Eastern Conference Finals Preview: Are the Knicks destined for the NBA Finals?",
       tag: "news",
-      excerpt: "Can the red-hot Knicks avenge the dissapointment of last season?",
+      excerpt: "Can the red-hot Knicks avenge the disappointment of last season?",
       date: "May 18, 2026",
       author: "Andrew Vincenti",
       content: `
