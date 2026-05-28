@@ -74,6 +74,26 @@ const articles = [
   // ── ADD YOUR NEXT ARTICLE HERE ──────────────────────────
   // Paste a new article block below this comment.
   // Don't forget the comma after the last article above!
+{
+      title: "Welcome to New York: Knicks sweep the Cavaliers to clinch their first NBA Finals berth since 1999",
+      tag: "news",
+      excerpt: "After a historic collapse in game 1, the Cavs ultimately couldn’t survive the concrete jungle.",
+      date: "May 28, 2026",
+      author: "Andrew Vincenti",
+      content: `
+      <p>The New York Knicks are heading to the NBA Finals for the first time since 1999. While the news is exciting enough on its own, the most promising part is how the Knicks have arrived here.</p>
+      <p>The Orange and Blue haven’t just been winning games - they have been absolutely dominating their opponents. 11 straight wins, back-to-back sweeps, the best net rating in NBA postseason history by a comfortable margin, and the largest playoff point differential in NBA history doesn’t even tell the full story. The Knicks have proven to be killers these playoffs, whether it has been coming back in historic fashion in Game 1 of the Eastern Conference Finals or winning by an average margin of 40 points in elimination games.</p> 
+      <p>The Cavs were not spared from the Orange and Blue barrage. After their historic collapse in Game 1, the Cavaliers simply looked defeated. No game for the rest of the series was particularly close, with the Knicks winning comfortably by double digits every game, including a 37-point demolition in game 4 where the Cavs looked like they had already quit. But at least The Land can take solace in the fact that, analytically, they won two out of the first three games.</p>
+      <p>With Game 1 of the NBA Finals a mere week away, it is important to look at not just the fact that the Knicks are winning, but how they are winning. The Knicks’ lethality comes from a far more diversified offense compared to last season, combined with a suffocating defense.</p> 
+      <p>A Revamped Offense:</p>
+      <p>While last postseason, the Knicks offense often looked stagnant and reliant on tough shots and “Brunson ball” to bail them out, this season the offense looks entirely revamped. The Knicks lead the league in assists this postseason, which comes in no small part due to Karl Anthony Towns emerging as a legitimate playmaking threat. The big man has averaged 6 assists these playoffs, a major step up from the 1.3 that he averaged last season. With the ball moving around, OG Anunoby, Mikal Bridges, Landry Shamet, and even Josh Hart have all been able to find their roles in the offense and step up when needed, which was crucial in the Eastern Conference Finals.</p>
+      <p>Defense Fueling The Break:</p>
+      <p>The Knicks defense has helped fuel their offense. The team employs an aggressive style of defense that prioritizes switching and allows their wing duo of Bridges and All-Defensive 2nd Teamer OG to roam like free safeties to disrupt opposing offenses. Behind their elite defensive wing duo, the Knicks have wreaked havoc, posting a +16 turnover differential in the Eastern Conference Finals, including a Game 4 where the Cavs recorded 22 turnovers that the Knicks turned into 34 points on the other end.</p>
+      <p>The Ultimate Test Awaits:</p>
+      <p>With their diverse offense and hounding defense delivering the most dominant 10-game stretch in the league’s history against some of the best opponents in the East, the Knicks enter the NBA Finals scorching hot. Knicks fans once again have hope, hope for a team that has run through the Eastern Conference in historic fashion and is led by “Captain Clutch,” who always seems to meet the moment when the lights shine the brightest.</p>
+      <p>While the Knicks are yet to face their toughest challenge yet, awaiting the winners of the Thunder-Spurs series, the Orange and Blue have clinched their first NBA Finals this century, as fans await to see if the Concrete Jungle is truly where dreams are made of.</p>
+    
+      `  
 
 ];
 
