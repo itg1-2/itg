@@ -94,6 +94,7 @@ const articles = [
       <p>While the Knicks are yet to face their toughest challenge yet, awaiting the winners of the Thunder-Spurs series, the Orange and Blue have clinched their first NBA Finals this century, as fans await to see if the Concrete Jungle is truly where dreams are made of.</p>
     
       `  
+}
 
 ];
 
