@@ -94,8 +94,33 @@ const articles = [
       <p>While the Knicks are yet to face their toughest challenge yet, awaiting the winners of the Thunder-Spurs series, the Orange and Blue have clinched their first NBA Finals this century, as fans await to see if the Concrete Jungle is truly where dreams are made of.</p>
     
       `  
-}
+},
 
+{  
+      title: "Captain Clutch vs. The Alien: Does the Knicks Dominant Run End Here?",
+      tag: "news",
+      excerpt: "In a rematch of the 1999 NBA Finals, the cruising Knicks face their toughest challenge yet.",
+      date: "June 3, 2026",
+      author: "Andrew Vincenti",
+      content: `
+      <p>After a long season, the NBA Finals have arrived, and despite all the doubt, the Knicks are making an appearance for the first time since 1999. Unfortunately for the Knicks, awaiting them on the other side is a 7’5 behemoth that has taken the league by storm.</p>
+      <p>Polymarket currently gives the San Antonio Spurs a 63% chance to win the NBA Finals and DraftKings has them as -220 to win it all. However, I am not fully sold on what the oddsmakers are foretelling, as I am here to say that at the end of this series, the Knicks will be crowned NBA Champions.</p> 
+      <p>While I stand firm in my faith in the Orange and Blue, it is no secret why the Spurs are favorites. They have the best player in the series, and perhaps in the league, in Victor Wembanyama and overall their roster is more talented. Wembanyama is a force to be reckoned with on both ends, paired with a veteran guard in De’Aaron Fox to keep the offense running smoothly, a young duo of talented guards with Stephon Castle and Dylan Harper, and plenty of shooting and defense of Julian Champagnie and Devin Vassell.</p> 
+      <p>The Spurs boast a well-constructed roster with incredible talent on both ends and they have proven themselves to be legitimate after a hard-fought seven game series against the Thunder. Truth be told, if both teams play their best ball, the Spurs will be crowned NBA champions.</p> 
+      <p>But playing your best on the biggest stage is a big assumption and that's where the Knicks have the upper hand. The Knicks just played the best 11 game stretch in NBA history against some of the best teams in the East. The Orange and Blue have looked utterly dominant in just about every aspect - they have posted the highest net rating by a team in a playoff run in NBA history, leading the postseason in both offensive and defensive rating, have shot the highest three point and effective field goal percentage of any team so far this postseason, and are tied for the best assist to turnover ratio so far this postseason.</p> 
+      <p>Simply put, the Knicks excel at maximizing their talent. They have played their best basketball every game since going down 2-1 to the Hawks with the exception of their poor first three quarters in Game 1 of the Eastern Conference Finals. They have managed to maximize the talent on their roster from stars like Brunson and KAT all the way down to guys on the bench like Landry Shamet, who was pivotal last series with his ability to torch the nets from downtown.</p> 
+      <p>On the other hand, the Spurs, while they hold incredible talent, do not have the same level of consistency. At their best, the Spurs are world beaters, but when they are off it can look ugly. The Spurs dropped a game against the Blazers, were taken to six games by a hobbled Minnesota team, and were blown out several times in the Thunder series. The Spurs’ young guards are prone to rookie mistakes, like Castle having 20 turnovers in just the first two games of the Western Conference Finals. The Thunder have shown that physical defense can get Wemby out of the paint, and the Knicks will live with Wembanyama trying to create from outside, as he shot 4/15 from the field in a pivotal Game 5.</p>
+      <p>The Knicks are perfectly built to exploit the Spurs weaknesses. Their strong defensive wings can get physical with Wemby and also bother the Spurs’ tandem of elite guards. On the other end, the Knicks elite floor spacing makes it much harder for Wemby to play like a free safety and roam the paint, which is when the Spurs defense is at its best. Wembanyama will likely guard Josh Hart so he can roam, meaning Hart’s ability to knock down his open threes will be crucial in determining how effective the unanimous Defensive Player of the Year will be.</p> 
+      <p>The Knicks are certainly underdogs in this Finals matchup, but I think too many people are looking at potential rather than what we have actually seen. The Knicks have consistently shown that their elite scheming, consistency on both ends, and veteran experience can carry them through a dominant playoff run, which is why I am predicting the Knicks to win in 6 games.</p> 
+      
+      `  
+
+}  
+
+
+
+
+  
 ];
 
 // ============================================================
