@@ -141,7 +141,7 @@ const articles = [
 
 {
 
-      title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from Immortality",
+      title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from NBA Immortality",
       tag: "news",
       excerpt: "Brunson’s 36 and OG’s 33 points helped the Knicks overcome a dismal first half to secure the 107-106 to go up 3-1.",
       date: "June 11, 2026",
