@@ -136,7 +136,31 @@ const articles = [
       <p>The Knicks defense was nothing short of incredible. As I said in my series preview, if the Knicks force Wemby off his spots and make him settle on the perimeter, the offense can go very dry, and that's exactly what happened in Game 1. But for all the good, the Orange and Blue’s offense looked bothered the whole game, struggling to put pressure on the rim with the unanimous Defensive Player of the Year locking down the paint.</p> 
       <p>Looking ahead, the Knicks are going to have to figure out how to work around Wemby because Brunson can only throw the offense a life raft so many times. Hart’s inability to shoot certainly makes things awkward, but the Knicks have shown the ability to adjust and overcome the entire postseason, which is why I think the Knicks could very well be hoisting Larry O’Brien at the end of this season.</p> 
       `  
-} 
+}, 
+
+
+{
+
+      title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from Immortality",
+      tag: "news",
+      excerpt: "Brunson’s 36 and OG’s 33 points helped the Knicks overcome a dismal first half to secure the 107-106 to go up 3-1.",
+      date: "June 11, 2026",
+      author: "Andrew Vincenti",
+      content: `
+      <p>Down 29 against perhaps the best player in basketball any other team would have folded. But the 2026 Knicks team is truly something special.</p>
+      <p>The Spurs opened the game by setting the NBA Finals record for the most threes made in a half and the record for the most points scored by an away team in the first half in Finals history. By all means the game was lost for the Orange and Blue. Sports social media network Overtime had already posted their instagram graphic declaring the series was tied 2-2. But for Jalen Brunson and OG Anunoby this was all just noise.</p>
+      <p>The Inevitable:</p>
+      <p>There have been a lot of incredible stats from the Knicks postseason run so far. The best net rating and point differential in postseason history, the greatest 10-game stretch in NBA history, and 46 days without losing a basketball game are other worldly stats.</p>
+      <p>But perhaps no stat encapsulates this team better than the fact that, now after Game 4, the team has a winning record when down 14 points in the second half. What should be a nearly insurmountable lead may as well be a fresh slate if your team is playing the Orange and Blue. There is no way to say it other than that the Knicks are clutch.</p>
+      <p>That is truly what has made the difference in this NBA Finals so far. We have seen stretches where the Spurs look like they are just the clearly superior basketball team just like all the oddsmakers predicted. The Spurs became the first team to lead by double digits by the end of every first quarter in NBA Finals history. You would expect the series to be over by now, and for Wembanyama to be hoisting his first Larry O’Brien, but instead the Knicks are in the drivers seat up 3-1. No matter how big the deficit or how thin the final margins, the Knicks have felt inevitable.</p>
+      <p>Garden Madness:</p>
+      <p>The Knicks went on an 11-0 run to steal Game 1 on the road, came up with a crucial steal and stop to clinch Game 2, and now Game 4 is just the latest of the Orange and Blue’s feats. A 29 point comeback, outscoring the Spurs 32-16 in the final frame, with Anunoby coming up with a crucial block and tip in to secure the commanding 3-1 lead.</p>
+      <p>The stars for both sides certainly came to play. For the Spurs, Wembanyama dropped 24 points and 13 rebounds, albeit on an inefficient 9-of-25 from the field, which has been a trend for him this series, while Dylan Harper continued his impressive Finals run with an efficient 21 point display. But the Knicks’ duo of Brunson and Anunoby were not to be outmatched, as Brunson dominated with 36 points and 7 assists, while also pitching in with 5 rebounds and 3 steals. But Anunoby stole the show with his late game heroics to cap off a herculean 33 point performance, where he shot a blistering 7-of-9 from three and 10-of-15 from the field.</p>
+      <p>A Win Away:</p>
+      <p>You can analyze the games all you want. You can talk about the Knicks offensive scheming to create open threes and work around Wembanyama or their work on defense to force the 7 '5 alien out of the paint, but at the end of the day the Knicks winning comes down to the fact that they just have the “it factor.” No matter how slow Brunson starts a game, you know the barrage will come. You know the three pointers will start to fall, the defense will become lockdown, and the knock out run is looming.</p>
+      <p>I called it in my series preview and I will say it again, the Knicks will be hoisting Larry O’Brien at the end of the 2026 season. Only this time when I am saying it, they are just one game away.</p>
+      `  
+}   
   
 ];
 
