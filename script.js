@@ -51,72 +51,28 @@ const articles = [
   // right after this one (still inside the [ ] brackets).
 
 
-      {
-      title: "Eastern Conference Finals Preview: Are the Knicks destined for the NBA Finals?",
+  {
+
+      title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from NBA Immortality",
       tag: "news",
-      excerpt: "Can the red-hot Knicks avenge the disappointment of last season?",
-      date: "May 18, 2026",
+      excerpt: "Brunson’s 36 and OG’s 33 points helped the Knicks overcome a dismal first half to secure the 107-106 to go up 3-1.",
+      date: "June 11, 2026",
       author: "Andrew Vincenti",
       content: `
-        <p>Following Cleveland’s 125-94 dismantling of the Detroit Pistons last night, the stage is set for a rematch of the 2023 first round series between Knicks and the Cavaliers, only this time they are fighting for a spot in the NBA Finals.</p>
-        <p>Prediction markets currently give the Knicks upward of a 70% chance to win the series and honestly it's not hard to see why.</p>
-        <p>The Knicks were preseason favorites to come out of the East, and while their regular season campaign was disappointing, the team has found its stride in the postseason, winning its last seven games in dominant fashion. The Orange and Blue have been the hottest team in the East all postseason, behind elite production and marksmanship from Jalen Brunson, the emergence of Karl Anthony Towns as a viable playmaking threat, and a strong team defense that has allowed the fewest points per game of any team these playoffs.</p>
-        <p>While the Knicks have boasted the largest point differential of the postseason so far, their sweep of the Philadelphia 76ers have them entering the conference finals nine days removed from game time action. The team will have to shake off some rust while also looking to reintegrate its two-way star in OG Anunoby, who missed the back half of the 76ers series with a hamstring strain.</p>
-        <p>On the other hand, the Cavaliers are riding into Game 1 in full stride, having survived another game seven to take down the No.1 seed, while also winning four of their last five games. While the Knicks are their toughest challenge yet, the Cavs have the Big 4 of Donovan Mitchell, James Harden, Evan Mobley, and Jarrett Allen to match their opponent’s star talent. The team is battle tested after two hard fought series, and has posted the fourth highest offensive rating in the postseason thus far, but inconsistency plagues The Land.</p>
-        <p>Harden has been incredibly erratic, as while his heroics in overtime of Game 3 against the Pistons saved the season, he has also been a turnover machine, having five games with more turnovers than field goals made. Combine that with Mobley’s unreliable offensive game, streaky shooting form Max Strus, and a defense that ranks 12th of the 16 teams in the postseason and the Cavs look vulnerable entering the Eastern Conference Finals.</p>
-        <p>Ultimately, in the battle between a Cavaliers team trying to make its first Finals appearance without Lebron and a Knicks team hungry to avenge the shortcomings of last season, I have the Knicks comfortably winning in six games.</p>
-        <p>The Knicks have been the better team so far this postseason, they have the best player in the series in Brunson, they have strong point of attack defenders in Anunoby and Mikal Bridges to throw at the Cavs guard tandem, while the Cavs lack anyone to slow down Brunson one-on-one and their inconsistencies on offense will be exploited by the hounding Knicks defense. I think this series goes to six because the Cavs have strong defensive bigs in Allen and last season’s DPOY in Mobley, who can make things hard for Towns, which is only made worse by the uncertainty of what Anunby’s production will look like post-injury.</p>
-        <p>Ultimately, this series feels like the Knicks’ to lose and last season’s heart-crushing loss to the Pacers should fuel them to finally make it over the hump and to the NBA Finals.</p> 
-
-      `
-    },
-
-  // ── ADD YOUR NEXT ARTICLE HERE ──────────────────────────
-  // Paste a new article block below this comment.
-  // Don't forget the comma after the last article above!
-{
-      title: "Welcome to New York: Knicks sweep the Cavaliers to clinch their first NBA Finals berth since 1999",
-      tag: "news",
-      excerpt: "After a historic collapse in game 1, the Cavs ultimately couldn’t survive the concrete jungle.",
-      date: "May 28, 2026",
-      author: "Andrew Vincenti",
-      content: `
-      <p>The New York Knicks are heading to the NBA Finals for the first time since 1999. While the news is exciting enough on its own, the most promising part is how the Knicks have arrived here.</p>
-      <p>The Orange and Blue haven’t just been winning games - they have been absolutely dominating their opponents. 11 straight wins, back-to-back sweeps, the best net rating in NBA postseason history by a comfortable margin, and the largest playoff point differential in NBA history doesn’t even tell the full story. The Knicks have proven to be killers these playoffs, whether it has been coming back in historic fashion in Game 1 of the Eastern Conference Finals or winning by an average margin of 40 points in elimination games.</p> 
-      <p>The Cavs were not spared from the Orange and Blue barrage. After their historic collapse in Game 1, the Cavaliers simply looked defeated. No game for the rest of the series was particularly close, with the Knicks winning comfortably by double digits every game, including a 37-point demolition in game 4 where the Cavs looked like they had already quit. But at least The Land can take solace in the fact that, analytically, they won two out of the first three games.</p>
-      <p>With Game 1 of the NBA Finals a mere week away, it is important to look at not just the fact that the Knicks are winning, but how they are winning. The Knicks’ lethality comes from a far more diversified offense compared to last season, combined with a suffocating defense.</p> 
-      <p>A Revamped Offense:</p>
-      <p>While last postseason, the Knicks offense often looked stagnant and reliant on tough shots and “Brunson ball” to bail them out, this season the offense looks entirely revamped. The Knicks lead the league in assists this postseason, which comes in no small part due to Karl Anthony Towns emerging as a legitimate playmaking threat. The big man has averaged 6 assists these playoffs, a major step up from the 1.3 that he averaged last season. With the ball moving around, OG Anunoby, Mikal Bridges, Landry Shamet, and even Josh Hart have all been able to find their roles in the offense and step up when needed, which was crucial in the Eastern Conference Finals.</p>
-      <p>Defense Fueling The Break:</p>
-      <p>The Knicks defense has helped fuel their offense. The team employs an aggressive style of defense that prioritizes switching and allows their wing duo of Bridges and All-Defensive 2nd Teamer OG to roam like free safeties to disrupt opposing offenses. Behind their elite defensive wing duo, the Knicks have wreaked havoc, posting a +16 turnover differential in the Eastern Conference Finals, including a Game 4 where the Cavs recorded 22 turnovers that the Knicks turned into 34 points on the other end.</p>
-      <p>The Ultimate Test Awaits:</p>
-      <p>With their diverse offense and hounding defense delivering the most dominant 10-game stretch in the league’s history against some of the best opponents in the East, the Knicks enter the NBA Finals scorching hot. Knicks fans once again have hope, hope for a team that has run through the Eastern Conference in historic fashion and is led by “Captain Clutch,” who always seems to meet the moment when the lights shine the brightest.</p>
-      <p>While the Knicks are yet to face their toughest challenge yet, awaiting the winners of the Thunder-Spurs series, the Orange and Blue have clinched their first NBA Finals this century, as fans await to see if the Concrete Jungle is truly where dreams are made of.</p>
-    
+      <p>Down 29 against perhaps the best player in basketball any other team would have folded. But the 2026 Knicks team is truly something special.</p>
+      <p>The Spurs opened the game by setting the NBA Finals record for the most threes made in a half and the record for the most points scored by an away team in the first half in Finals history. By all means the game was lost for the Orange and Blue. Sports social media network Overtime had already posted their instagram graphic declaring the series was tied 2-2. But for Jalen Brunson and OG Anunoby this was all just noise.</p>
+      <p>The Inevitable:</p>
+      <p>There have been a lot of incredible stats from the Knicks postseason run so far. The best net rating and point differential in postseason history, the greatest 10-game stretch in NBA history, and 46 days without losing a basketball game are other worldly stats.</p>
+      <p>But perhaps no stat encapsulates this team better than the fact that, now after Game 4, the team has a winning record when down 14 points in the second half. What should be a nearly insurmountable lead may as well be a fresh slate if your team is playing the Orange and Blue. There is no way to say it other than that the Knicks are clutch.</p>
+      <p>That is truly what has made the difference in this NBA Finals so far. We have seen stretches where the Spurs look like they are just the clearly superior basketball team just like all the oddsmakers predicted. The Spurs became the first team to lead by double digits by the end of every first quarter in NBA Finals history. You would expect the series to be over by now, and for Wembanyama to be hoisting his first Larry O’Brien, but instead the Knicks are in the drivers seat up 3-1. No matter how big the deficit or how thin the final margins, the Knicks have felt inevitable.</p>
+      <p>Garden Madness:</p>
+      <p>The Knicks went on an 11-0 run to steal Game 1 on the road, came up with a crucial steal and stop to clinch Game 2, and now Game 4 is just the latest of the Orange and Blue’s feats. A 29 point comeback, outscoring the Spurs 32-16 in the final frame, with Anunoby coming up with a crucial block and tip in to secure the commanding 3-1 lead.</p>
+      <p>The stars for both sides certainly came to play. For the Spurs, Wembanyama dropped 24 points and 13 rebounds, albeit on an inefficient 9-of-25 from the field, which has been a trend for him this series, while Dylan Harper continued his impressive Finals run with an efficient 21 point display. But the Knicks’ duo of Brunson and Anunoby were not to be outmatched, as Brunson dominated with 36 points and 7 assists, while also pitching in with 5 rebounds and 3 steals. But Anunoby stole the show with his late game heroics to cap off a herculean 33 point performance, where he shot a blistering 7-of-9 from three and 10-of-15 from the field.</p>
+      <p>A Win Away:</p>
+      <p>You can analyze the games all you want. You can talk about the Knicks offensive scheming to create open threes and work around Wembanyama or their work on defense to force the 7 '5 alien out of the paint, but at the end of the day the Knicks winning comes down to the fact that they just have the “it factor.” No matter how slow Brunson starts a game, you know the barrage will come. You know the three pointers will start to fall, the defense will become lockdown, and the knock out run is looming.</p>
+      <p>I called it in my series preview and I will say it again, the Knicks will be hoisting Larry O’Brien at the end of the 2026 season. Only this time when I am saying it, they are just one game away.</p>
       `  
-},
-
-{  
-      title: "Captain Clutch vs. The Alien: Does the Knicks Dominant Run End Here?",
-      tag: "news",
-      excerpt: "In a rematch of the 1999 NBA Finals, the cruising Knicks face their toughest challenge yet.",
-      date: "June 3, 2026",
-      author: "Andrew Vincenti",
-      content: `
-      <p>After a long season, the NBA Finals have arrived, and despite all the doubt, the Knicks are making an appearance for the first time since 1999. Unfortunately for the Knicks, awaiting them on the other side is a 7’5 behemoth that has taken the league by storm.</p>
-      <p>Polymarket currently gives the San Antonio Spurs a 63% chance to win the NBA Finals and DraftKings has them as -220 to win it all. However, I am not fully sold on what the oddsmakers are foretelling, as I am here to say that at the end of this series, the Knicks will be crowned NBA Champions.</p> 
-      <p>While I stand firm in my faith in the Orange and Blue, it is no secret why the Spurs are favorites. They have the best player in the series, and perhaps in the league, in Victor Wembanyama and overall their roster is more talented. Wembanyama is a force to be reckoned with on both ends, paired with a veteran guard in De’Aaron Fox to keep the offense running smoothly, a young duo of talented guards with Stephon Castle and Dylan Harper, and plenty of shooting and defense from Julian Champagnie and Devin Vassell.</p> 
-      <p>The Spurs boast a well-constructed roster with incredible talent on both ends and they have proven themselves to be legitimate after a hard-fought seven game series against the Thunder. Truth be told, if both teams play their best ball, the Spurs will be crowned NBA champions.</p> 
-      <p>But playing your best on the biggest stage is a big assumption and that's where the Knicks have the upper hand. The Knicks just played the best 11 game stretch in NBA history against some of the best teams in the East. The Orange and Blue have looked utterly dominant in just about every aspect - they have posted the highest net rating by a team in a playoff run in NBA history, leading the postseason in both offensive and defensive rating, have shot the highest three point and effective field goal percentage of any team so far this postseason, and are tied for the best assist to turnover ratio so far this postseason.</p> 
-      <p>Simply put, the Knicks excel at maximizing their talent. They have played their best basketball every game since going down 2-1 to the Hawks with the exception of their poor first three quarters in Game 1 of the Eastern Conference Finals. They have managed to maximize the talent on their roster from stars like Brunson and KAT all the way down to guys on the bench like Landry Shamet, who was pivotal last series with his ability to torch the nets from downtown.</p> 
-      <p>On the other hand, the Spurs, while they hold incredible talent, do not have the same level of consistency. At their best, the Spurs are world beaters, but when they are off it can look ugly. The Spurs dropped a game against the Blazers, were taken to six games by a hobbled Minnesota team, and were blown out several times in the Thunder series. The Spurs’ young guards are prone to rookie mistakes, like Castle having 20 turnovers in just the first two games of the Western Conference Finals. The Thunder have shown that physical defense can get Wemby out of the paint, and the Knicks will live with Wembanyama trying to create from outside, as he shot 4/15 from the field in a pivotal Game 5.</p>
-      <p>The Knicks are perfectly built to exploit the Spurs weaknesses. Their strong defensive wings can get physical with Wemby and also bother the Spurs’ tandem of elite guards. On the other end, the Knicks elite floor spacing makes it much harder for Wemby to play like a free safety and roam the paint, which is when the Spurs defense is at its best. Wembanyama will likely guard Josh Hart so he can roam, meaning Hart’s ability to knock down his open threes will be crucial in determining how effective the unanimous Defensive Player of the Year will be.</p> 
-      <p>The Knicks are certainly underdogs in this Finals matchup, but I think too many people are looking at potential rather than what we have actually seen. The Knicks have consistently shown that their elite scheming, consistency on both ends, and veteran experience can carry them through a dominant playoff run, which is why I am predicting the Knicks to win in 6 games.</p> 
-      
-      `  
-
-},  
-
+},   
 
 {
 
@@ -138,29 +94,67 @@ const articles = [
       `  
 }, 
 
-
-{
-
-      title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from NBA Immortality",
+ {  
+      title: "Captain Clutch vs. The Alien: Does the Knicks Dominant Run End Here?",
       tag: "news",
-      excerpt: "Brunson’s 36 and OG’s 33 points helped the Knicks overcome a dismal first half to secure the 107-106 to go up 3-1.",
-      date: "June 11, 2026",
+      excerpt: "In a rematch of the 1999 NBA Finals, the cruising Knicks face their toughest challenge yet.",
+      date: "June 3, 2026",
       author: "Andrew Vincenti",
       content: `
-      <p>Down 29 against perhaps the best player in basketball any other team would have folded. But the 2026 Knicks team is truly something special.</p>
-      <p>The Spurs opened the game by setting the NBA Finals record for the most threes made in a half and the record for the most points scored by an away team in the first half in Finals history. By all means the game was lost for the Orange and Blue. Sports social media network Overtime had already posted their instagram graphic declaring the series was tied 2-2. But for Jalen Brunson and OG Anunoby this was all just noise.</p>
-      <p>The Inevitable:</p>
-      <p>There have been a lot of incredible stats from the Knicks postseason run so far. The best net rating and point differential in postseason history, the greatest 10-game stretch in NBA history, and 46 days without losing a basketball game are other worldly stats.</p>
-      <p>But perhaps no stat encapsulates this team better than the fact that, now after Game 4, the team has a winning record when down 14 points in the second half. What should be a nearly insurmountable lead may as well be a fresh slate if your team is playing the Orange and Blue. There is no way to say it other than that the Knicks are clutch.</p>
-      <p>That is truly what has made the difference in this NBA Finals so far. We have seen stretches where the Spurs look like they are just the clearly superior basketball team just like all the oddsmakers predicted. The Spurs became the first team to lead by double digits by the end of every first quarter in NBA Finals history. You would expect the series to be over by now, and for Wembanyama to be hoisting his first Larry O’Brien, but instead the Knicks are in the drivers seat up 3-1. No matter how big the deficit or how thin the final margins, the Knicks have felt inevitable.</p>
-      <p>Garden Madness:</p>
-      <p>The Knicks went on an 11-0 run to steal Game 1 on the road, came up with a crucial steal and stop to clinch Game 2, and now Game 4 is just the latest of the Orange and Blue’s feats. A 29 point comeback, outscoring the Spurs 32-16 in the final frame, with Anunoby coming up with a crucial block and tip in to secure the commanding 3-1 lead.</p>
-      <p>The stars for both sides certainly came to play. For the Spurs, Wembanyama dropped 24 points and 13 rebounds, albeit on an inefficient 9-of-25 from the field, which has been a trend for him this series, while Dylan Harper continued his impressive Finals run with an efficient 21 point display. But the Knicks’ duo of Brunson and Anunoby were not to be outmatched, as Brunson dominated with 36 points and 7 assists, while also pitching in with 5 rebounds and 3 steals. But Anunoby stole the show with his late game heroics to cap off a herculean 33 point performance, where he shot a blistering 7-of-9 from three and 10-of-15 from the field.</p>
-      <p>A Win Away:</p>
-      <p>You can analyze the games all you want. You can talk about the Knicks offensive scheming to create open threes and work around Wembanyama or their work on defense to force the 7 '5 alien out of the paint, but at the end of the day the Knicks winning comes down to the fact that they just have the “it factor.” No matter how slow Brunson starts a game, you know the barrage will come. You know the three pointers will start to fall, the defense will become lockdown, and the knock out run is looming.</p>
-      <p>I called it in my series preview and I will say it again, the Knicks will be hoisting Larry O’Brien at the end of the 2026 season. Only this time when I am saying it, they are just one game away.</p>
+      <p>After a long season, the NBA Finals have arrived, and despite all the doubt, the Knicks are making an appearance for the first time since 1999. Unfortunately for the Knicks, awaiting them on the other side is a 7’5 behemoth that has taken the league by storm.</p>
+      <p>Polymarket currently gives the San Antonio Spurs a 63% chance to win the NBA Finals and DraftKings has them as -220 to win it all. However, I am not fully sold on what the oddsmakers are foretelling, as I am here to say that at the end of this series, the Knicks will be crowned NBA Champions.</p> 
+      <p>While I stand firm in my faith in the Orange and Blue, it is no secret why the Spurs are favorites. They have the best player in the series, and perhaps in the league, in Victor Wembanyama and overall their roster is more talented. Wembanyama is a force to be reckoned with on both ends, paired with a veteran guard in De’Aaron Fox to keep the offense running smoothly, a young duo of talented guards with Stephon Castle and Dylan Harper, and plenty of shooting and defense from Julian Champagnie and Devin Vassell.</p> 
+      <p>The Spurs boast a well-constructed roster with incredible talent on both ends and they have proven themselves to be legitimate after a hard-fought seven game series against the Thunder. Truth be told, if both teams play their best ball, the Spurs will be crowned NBA champions.</p> 
+      <p>But playing your best on the biggest stage is a big assumption and that's where the Knicks have the upper hand. The Knicks just played the best 11 game stretch in NBA history against some of the best teams in the East. The Orange and Blue have looked utterly dominant in just about every aspect - they have posted the highest net rating by a team in a playoff run in NBA history, leading the postseason in both offensive and defensive rating, have shot the highest three point and effective field goal percentage of any team so far this postseason, and are tied for the best assist to turnover ratio so far this postseason.</p> 
+      <p>Simply put, the Knicks excel at maximizing their talent. They have played their best basketball every game since going down 2-1 to the Hawks with the exception of their poor first three quarters in Game 1 of the Eastern Conference Finals. They have managed to maximize the talent on their roster from stars like Brunson and KAT all the way down to guys on the bench like Landry Shamet, who was pivotal last series with his ability to torch the nets from downtown.</p> 
+      <p>On the other hand, the Spurs, while they hold incredible talent, do not have the same level of consistency. At their best, the Spurs are world beaters, but when they are off it can look ugly. The Spurs dropped a game against the Blazers, were taken to six games by a hobbled Minnesota team, and were blown out several times in the Thunder series. The Spurs’ young guards are prone to rookie mistakes, like Castle having 20 turnovers in just the first two games of the Western Conference Finals. The Thunder have shown that physical defense can get Wemby out of the paint, and the Knicks will live with Wembanyama trying to create from outside, as he shot 4/15 from the field in a pivotal Game 5.</p>
+      <p>The Knicks are perfectly built to exploit the Spurs weaknesses. Their strong defensive wings can get physical with Wemby and also bother the Spurs’ tandem of elite guards. On the other end, the Knicks elite floor spacing makes it much harder for Wemby to play like a free safety and roam the paint, which is when the Spurs defense is at its best. Wembanyama will likely guard Josh Hart so he can roam, meaning Hart’s ability to knock down his open threes will be crucial in determining how effective the unanimous Defensive Player of the Year will be.</p> 
+      <p>The Knicks are certainly underdogs in this Finals matchup, but I think too many people are looking at potential rather than what we have actually seen. The Knicks have consistently shown that their elite scheming, consistency on both ends, and veteran experience can carry them through a dominant playoff run, which is why I am predicting the Knicks to win in 6 games.</p> 
+      
       `  
-}   
+
+},  
+
+{
+      title: "Welcome to New York: Knicks sweep the Cavaliers to clinch their first NBA Finals berth since 1999",
+      tag: "news",
+      excerpt: "After a historic collapse in game 1, the Cavs ultimately couldn’t survive the concrete jungle.",
+      date: "May 28, 2026",
+      author: "Andrew Vincenti",
+      content: `
+      <p>The New York Knicks are heading to the NBA Finals for the first time since 1999. While the news is exciting enough on its own, the most promising part is how the Knicks have arrived here.</p>
+      <p>The Orange and Blue haven’t just been winning games - they have been absolutely dominating their opponents. 11 straight wins, back-to-back sweeps, the best net rating in NBA postseason history by a comfortable margin, and the largest playoff point differential in NBA history doesn’t even tell the full story. The Knicks have proven to be killers these playoffs, whether it has been coming back in historic fashion in Game 1 of the Eastern Conference Finals or winning by an average margin of 40 points in elimination games.</p> 
+      <p>The Cavs were not spared from the Orange and Blue barrage. After their historic collapse in Game 1, the Cavaliers simply looked defeated. No game for the rest of the series was particularly close, with the Knicks winning comfortably by double digits every game, including a 37-point demolition in game 4 where the Cavs looked like they had already quit. But at least The Land can take solace in the fact that, analytically, they won two out of the first three games.</p>
+      <p>With Game 1 of the NBA Finals a mere week away, it is important to look at not just the fact that the Knicks are winning, but how they are winning. The Knicks’ lethality comes from a far more diversified offense compared to last season, combined with a suffocating defense.</p> 
+      <p>A Revamped Offense:</p>
+      <p>While last postseason, the Knicks offense often looked stagnant and reliant on tough shots and “Brunson ball” to bail them out, this season the offense looks entirely revamped. The Knicks lead the league in assists this postseason, which comes in no small part due to Karl Anthony Towns emerging as a legitimate playmaking threat. The big man has averaged 6 assists these playoffs, a major step up from the 1.3 that he averaged last season. With the ball moving around, OG Anunoby, Mikal Bridges, Landry Shamet, and even Josh Hart have all been able to find their roles in the offense and step up when needed, which was crucial in the Eastern Conference Finals.</p>
+      <p>Defense Fueling The Break:</p>
+      <p>The Knicks defense has helped fuel their offense. The team employs an aggressive style of defense that prioritizes switching and allows their wing duo of Bridges and All-Defensive 2nd Teamer OG to roam like free safeties to disrupt opposing offenses. Behind their elite defensive wing duo, the Knicks have wreaked havoc, posting a +16 turnover differential in the Eastern Conference Finals, including a Game 4 where the Cavs recorded 22 turnovers that the Knicks turned into 34 points on the other end.</p>
+      <p>The Ultimate Test Awaits:</p>
+      <p>With their diverse offense and hounding defense delivering the most dominant 10-game stretch in the league’s history against some of the best opponents in the East, the Knicks enter the NBA Finals scorching hot. Knicks fans once again have hope, hope for a team that has run through the Eastern Conference in historic fashion and is led by “Captain Clutch,” who always seems to meet the moment when the lights shine the brightest.</p>
+      <p>While the Knicks are yet to face their toughest challenge yet, awaiting the winners of the Thunder-Spurs series, the Orange and Blue have clinched their first NBA Finals this century, as fans await to see if the Concrete Jungle is truly where dreams are made of.</p>
+    
+      `  
+},
+  
+  {
+      title: "Eastern Conference Finals Preview: Are the Knicks destined for the NBA Finals?",
+      tag: "news",
+      excerpt: "Can the red-hot Knicks avenge the disappointment of last season?",
+      date: "May 18, 2026",
+      author: "Andrew Vincenti",
+      content: `
+        <p>Following Cleveland’s 125-94 dismantling of the Detroit Pistons last night, the stage is set for a rematch of the 2023 first round series between Knicks and the Cavaliers, only this time they are fighting for a spot in the NBA Finals.</p>
+        <p>Prediction markets currently give the Knicks upward of a 70% chance to win the series and honestly it's not hard to see why.</p>
+        <p>The Knicks were preseason favorites to come out of the East, and while their regular season campaign was disappointing, the team has found its stride in the postseason, winning its last seven games in dominant fashion. The Orange and Blue have been the hottest team in the East all postseason, behind elite production and marksmanship from Jalen Brunson, the emergence of Karl Anthony Towns as a viable playmaking threat, and a strong team defense that has allowed the fewest points per game of any team these playoffs.</p>
+        <p>While the Knicks have boasted the largest point differential of the postseason so far, their sweep of the Philadelphia 76ers have them entering the conference finals nine days removed from game time action. The team will have to shake off some rust while also looking to reintegrate its two-way star in OG Anunoby, who missed the back half of the 76ers series with a hamstring strain.</p>
+        <p>On the other hand, the Cavaliers are riding into Game 1 in full stride, having survived another game seven to take down the No.1 seed, while also winning four of their last five games. While the Knicks are their toughest challenge yet, the Cavs have the Big 4 of Donovan Mitchell, James Harden, Evan Mobley, and Jarrett Allen to match their opponent’s star talent. The team is battle tested after two hard fought series, and has posted the fourth highest offensive rating in the postseason thus far, but inconsistency plagues The Land.</p>
+        <p>Harden has been incredibly erratic, as while his heroics in overtime of Game 3 against the Pistons saved the season, he has also been a turnover machine, having five games with more turnovers than field goals made. Combine that with Mobley’s unreliable offensive game, streaky shooting form Max Strus, and a defense that ranks 12th of the 16 teams in the postseason and the Cavs look vulnerable entering the Eastern Conference Finals.</p>
+        <p>Ultimately, in the battle between a Cavaliers team trying to make its first Finals appearance without Lebron and a Knicks team hungry to avenge the shortcomings of last season, I have the Knicks comfortably winning in six games.</p>
+        <p>The Knicks have been the better team so far this postseason, they have the best player in the series in Brunson, they have strong point of attack defenders in Anunoby and Mikal Bridges to throw at the Cavs guard tandem, while the Cavs lack anyone to slow down Brunson one-on-one and their inconsistencies on offense will be exploited by the hounding Knicks defense. I think this series goes to six because the Cavs have strong defensive bigs in Allen and last season’s DPOY in Mobley, who can make things hard for Towns, which is only made worse by the uncertainty of what Anunby’s production will look like post-injury.</p>
+        <p>Ultimately, this series feels like the Knicks’ to lose and last season’s heart-crushing loss to the Pacers should fuel them to finally make it over the hump and to the NBA Finals.</p> 
+      `
+    }
   
 ];
 
