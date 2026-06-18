@@ -50,7 +50,30 @@ const articles = [
   // To add more articles, copy the block below and paste it
   // right after this one (still inside the [ ] brackets).
 
+{
 
+      title: "Start Spreading the News: The New York Knicks Shatter Half-Century Long Championship Drought",
+      tag: "news",
+      excerpt: "Jalen Brunson clinched the Knicks’ first Larry O’Brien since 1973 with a historic 45 points to close out the series.",
+      date: "June 17, 2026",
+      author: "Andrew Vincenti",
+      content: `
+      <p>“Go ahead and cry! After 53 years, the Knicks are finally NBA champions once again!” Not long ago, if somebody had told you that these words from historic announcer Mike Breen would be the final call of the season you would have thought they were just dreaming.</p>
+      <p>A Historic Turnaround:</p>
+      <p>Flashback to April 24 and the Knicks looked dead in the water. After a heartbreaking loss to the Pacers the season before, the 2026 season looked destined to flameout in disappointing fashion yet again. The Orange and Blue had just lost back-to-back one-point games to the No.6 seeded Atlanta Hawks and were staring down a 2-1 hole and their odds of winning the Championship had fallen to just 1.9% on polymarket.</p>
+      <p>But after that day, which featured a fiery rant from Stephen A. Smith, the Knicks seemingly transformed into an entirely different team. What followed is possibly the greatest playoff run in the league’s entire history. The Knicks closed out the postseason on a 15-1 run, sweeping the 76ers and Cavaliers in back-to-back series, posting the largest point differential in postseason history, and capping off their dominant campaign by upsetting the heavily favored Spurs in just 5 games.</p>
+      <p>Captain Clutch Delivers:</p>
+      <p>Game 5 of the NBA Finals encapsulated not just the feeling of the series, but of the entire postseason. The Knicks trailed by as much as 16 points and Brunson, as he has done for the entire series, put the team on his back. Acting as nearly the sole source of offensive production, Captain Clutch scored 45 of the team’s 94 points, including going on a 10-0 run by himself in the fourth quarter to tie up the game.</p> 
+      <p>Every point of Brunson’s scoring barrage was needed to pull off yet another razor thin comeback, as Og Anunoby and Karl-Anthony Towns shot a combined 4-of-18 from the field, while Bridges served as the only form of offensive help with an efficient 14 point performance. But the defensive end is where the team truly stepped up, stifling the Spurs’ duo of Wembanyama and Fox. Wemby was forced into his worst offensive performance of the finals with just 19 points on 7-of-19 shooting, while Fox posted yet another stormtrooper-esque shooting performance.</p>
+      <p>Everything from Brunson’s stellar performance to the 16-point comeback captured the magical feeling of this postseason run. With their backs against the wall just a month and a half ago, the Knicks needed to change if they were going to truly compete for a championship, and when that same adversity came up again in the Finals, the Orange and Blue were ready.</p>
+      <p>Receipts Collected:</p>
+      <p>With NBA Champions now preceding their names, the Knicks have proven the doubters wrong. Towns has proven he’s not “too soft” to be a champion, Anunoby proved he is the best 3&D player in the league, Bridges silenced the critics that said the Knicks traded too many picks for him, while guys like Hart, Shamet, and Alvarado who had practically been given up on, showed their ability to be crucial glue guys. Even Mike Brown proved he can elevate a team to a championship level after being fired by the Sacramento Kings.</p>
+      <p>But nobody has proven more than the captain at the helm - Jalen Brunson. After all the noise about Brunson being “too small” and not a “1A” type of player, Brunson silenced the noise with a dominant playoff run, capped off with a Finals MVP. Brunson showed that he can outplay any player on the biggest stage en route to securing a championship, a feat that even some of the game’s greatest guards like Steve Nash, Chris Paul, Allen Iverson, and James Harden could never quite reach. Brunson’s playoff run is up there with some of the greatest ever, raising the question of not just where he ranks among all-time Knicks, but where he ranks amongst the greatest to ever step foot on the hardwood.</p>
+      <p>While Brunson and the Knicks continue to write their story and leave their impact on the long legacy of the NBA, for now, the 2025-26 Championship etches their name in the history books as a new era of New York basketball is among us.</p> 
+      `  
+},  
+
+  
   {
 
       title: "Miracle at MSG: OG’s Tip-in seals 29-point Comeback as the Knicks are One Win Away from NBA Immortality",
