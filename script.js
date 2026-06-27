@@ -50,13 +50,39 @@ const articles = [
   // To add more articles, copy the block below and paste it
   // right after this one (still inside the [ ] brackets).
 
+
+{
+
+      title: "James Dolan kicks off the Knicks 2026 offseason with a masterclass in modern sports greed",
+      tag: "news",
+      excerpt: "The Knicks 2026 Draft wasn’t just a disaster - it was the pinnacle of greed and mismanagement.",
+      date: "June 27, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>The biggest threat to the Knicks next season isn’t the Thunder or the Spurs, but instead the team’s own owner - James Dolan.</p>
+      <p>Perhaps the only downside of the Knicks winning the NBA Championship is that Dolan can now claim to have brought the Big Apple its first championship in 53 years. The greedy, cheap billionaire-owner who missed the 2017 Draft because his band had a performance, a draft where we took Frank Ntilikina over Donovan Mitchell, now lays claim to an NBA championship.</p>
+      <p>The Mismanagement of the 2026 Draft:</p>
+      <p>But the Knicks Larry O’Brien run happened in spite of their owner and the 2026 Draft only proves it. The Knicks' picks themselves weren’t the biggest issue. The team drafting a project guard in Jack Kayil when the team urgently needs big man depth was a puzzling move, but snagging Tyler Nickel with the 47th pick could be a legitimate steal.</p> 
+      <p>The real issue is that, instead of looking to build off their championship core, the Knicks decided to trade their assets for cash because James Dolan is too cheap to go into the second apron. The Knicks could have used their late first to add much-needed wing or center depth in the form of Joshua Jefferson or Isaiah Evans, or they could have even been proactive and traded up to get someone like Allen Graves or Zuby Ejiofor. Instead we traded back in the draft to deepen our cash reserves despite our owner being a literal billionaire.</p>
+      <p>The Heart of the Issue:</p>
+      <p>The most pressing problem is that Dolan could cost the team beyond just missing out on young talent. The main reason the Knicks needed to draft wing and center depth in the first place is because the team could stand to lose core pieces like Mitchell Robinson and Landry Shamet if their owner refuses to open up his checkbook.</p>
+      <p>Some are coming to defend Dolan’s decision of avoiding the second apron because it comes with restrictions on the team’s ability to trade and sign players. But the truth is that the Knick’s owner is driven not by some grand, forward-thinking vision but by the desire to amass a collection of presidents to line his pockets. Knicks management has urged Dolan to enter the second apron because they understand the team’s priority should be re-signing their proven, championship squad above all else.</p>  
+      <p>Dolan and Modern Sports Greed:</p>
+      <p>Ultimately, Dolan’s stingyness is a masterclass in modern sports greed. It is an utter embarrassment that one of the league's premier franchises is putting historic profits ahead of a back-to-back title run. Truthfully, why own a franchise if you refuse to spend money on it. Owners like Dolan are the reason why I won’t criticize teams like the Los Angeles Dodgers, who at the very least are willing to spend the money to deliver a good team to their fans. Dolan, on the other hand, is just a testament to the world of sports today - a world where winning and fan experience are put on the backburner in favor of earning historic profits.</p>  
+      `  
+},  
+
+
+
+
+  
 {
 
       title: "Start Spreading the News: The New York Knicks Shatter Half-Century Long Championship Drought",
       tag: "news",
       excerpt: "Jalen Brunson clinched the Knicks’ first Larry O’Brien since 1973 with a historic 45 points to close out the series.",
       date: "June 17, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
       <p>“Go ahead and cry! After 53 years, the Knicks are finally NBA champions once again!” Not long ago, if somebody had told you that these words from historic announcer Mike Breen would be the final call of the season you would have thought they were just dreaming.</p>
       <p>A Historic Turnaround:</p>
@@ -80,7 +106,7 @@ const articles = [
       tag: "news",
       excerpt: "Brunson’s 36 and OG’s 33 points helped the Knicks overcome a dismal first half to secure the 107-106 to go up 3-1.",
       date: "June 11, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
       <p>Down 29 against perhaps the best player in basketball any other team would have folded. But the 2026 Knicks team is truly something special.</p>
       <p>The Spurs opened the game by setting the NBA Finals record for the most threes made in a half and the record for the most points scored by an away team in the first half in Finals history. By all means the game was lost for the Orange and Blue. Sports social media network Overtime had already posted their instagram graphic declaring the series was tied 2-2. But for Jalen Brunson and OG Anunoby this was all just noise.</p>
@@ -103,7 +129,7 @@ const articles = [
       tag: "news",
       excerpt: "Down 14 in San Antonio, Brunson shrugged off injuries to take over late in the fourth to stun the Spurs.",
       date: "June 5, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
       <p>The oddsmakers called the Spurs heavy favorites. They said that the Knicks couldn’t handle Wemby. But a miraculous 11-0 closing run from the Orange and Blue just completely flipped the script on the NBA Finals.</p>
       <p>Game 1 of the NBA Finals proves that if there's any player you want on your team for a playoff series, it's Jalen Brunson. In a gritty duel where the Knicks shot just 41% from the field and the Spurs shot a dismal 36%, Captain Clutch battled through injuries and put the team on his back, dropping 30 points with 13 coming in the 4th quarter alone.</p> 
@@ -122,7 +148,7 @@ const articles = [
       tag: "news",
       excerpt: "In a rematch of the 1999 NBA Finals, the cruising Knicks face their toughest challenge yet.",
       date: "June 3, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
       <p>After a long season, the NBA Finals have arrived, and despite all the doubt, the Knicks are making an appearance for the first time since 1999. Unfortunately for the Knicks, awaiting them on the other side is a 7’5 behemoth that has taken the league by storm.</p>
       <p>Polymarket currently gives the San Antonio Spurs a 63% chance to win the NBA Finals and DraftKings has them as -220 to win it all. However, I am not fully sold on what the oddsmakers are foretelling, as I am here to say that at the end of this series, the Knicks will be crowned NBA Champions.</p> 
@@ -143,7 +169,7 @@ const articles = [
       tag: "news",
       excerpt: "After a historic collapse in game 1, the Cavs ultimately couldn’t survive the concrete jungle.",
       date: "May 28, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
       <p>The New York Knicks are heading to the NBA Finals for the first time since 1999. While the news is exciting enough on its own, the most promising part is how the Knicks have arrived here.</p>
       <p>The Orange and Blue haven’t just been winning games - they have been absolutely dominating their opponents. 11 straight wins, back-to-back sweeps, the best net rating in NBA postseason history by a comfortable margin, and the largest playoff point differential in NBA history doesn’t even tell the full story. The Knicks have proven to be killers these playoffs, whether it has been coming back in historic fashion in Game 1 of the Eastern Conference Finals or winning by an average margin of 40 points in elimination games.</p> 
@@ -165,7 +191,7 @@ const articles = [
       tag: "news",
       excerpt: "Can the red-hot Knicks avenge the disappointment of last season?",
       date: "May 18, 2026",
-      author: "Andrew Vincenti",
+      author: "Andrew J. Vincenti",
       content: `
         <p>Following Cleveland’s 125-94 dismantling of the Detroit Pistons last night, the stage is set for a rematch of the 2023 first round series between Knicks and the Cavaliers, only this time they are fighting for a spot in the NBA Finals.</p>
         <p>Prediction markets currently give the Knicks upward of a 70% chance to win the series and honestly it's not hard to see why.</p>
