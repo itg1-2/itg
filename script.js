@@ -50,8 +50,35 @@ const articles = [
   // To add more articles, copy the block below and paste it
   // right after this one (still inside the [ ] brackets).
 
-
 {
+
+      title: "Have the Philadelphia 76ers Overtaken the Knicks as The King of the East?",
+      tag: "news",
+      excerpt: "With the acquisition of Jaylen Brown, the Sixers may have the most talent on paper. But is it enough to beat the Orange and Blue?",
+      date: "July 10, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>The Philadelphia 76ers have elevated into true contention status with the recent trade for Jaylen Brown. Gaining an MVP candidate in Brown could be a massive piece for a team looking to get over the hump, but is Philly’s newest addition doing more harm than good?</p>
+      <p>On the surface, it looks like Philly got away with highway robbery. They are picking up a legitimate offensive weapon in Brown for the mere price of a 36-year old Paul George, two firsts, and two seconds. The former Celtic is coming off a season where he led an undermanned Boston squad to the second seed in the absence of Jayson Tatum. With career highs of 28.7 points, 5.1 assists, and 6.9 rebounds a game, Brown placed sixth in MVP voting.</p>
+      <p>Brown is joining a star-studded Sixers squad, with Tyrese Maxey as the lead guard, Joel Embiid fortifying the front court, and a budding star in V.J. Edgecombe providing an extra punch. The team also picked up Dean Wade, who can add crucial floor spacing as a forward. With the acquisition of Brown, the Sixers are looking like the most talented team on paper in the Eastern Conference, but if last season has taught us anything, that doesn’t always guarantee winning.</p>
+      <p>Even with the addition of Brown, I still see the Knicks as the team to beat in the East. Beyond being the reigning NBA Champions, their roster construction, chemistry, and reliability give them a leg up over their Atlantic Division rivals.</p>
+      <p>Are the Sixers Taking On a Paradox:</p>
+      <p>While Brown is an incredible talent, the Sixers may face the struggle of  “The Jaylen Brown Paradox”. Brown’s impressive counting stats, especially for a second-seeded Boston team that had no expectations this year, make him look like a true superstar and MVP candidate. But the on-off numbers, especially when contrasted with his former co-star’s, tell a different story.</p>
+      <p>By the on-off numbers, Brown is actually a negative player, posting a career -1.3 on-off metric. It isn’t just his early years dragging him down either, in the Celtics’ championship 2023-24 year, Brown posted a net rating of -5.7, and in his recent, MVP-level year, he posted a -4.4. In the seven games against Philadelphia this season, Brown was a blatant net-negative compared to Tatum. The team with just Tatum on the floor had a net rating of +15.6, with both their stars it dropped to a +4.5, and with just Brown it plummeted to -18.6. Even if you’re not a fan of analytics, the Celtics going 9-2 without Brown last season, a better winning percentage than they had with him, encapsulates the former Celtic’s impact on winning.</p>
+      <p>But the question arises, how can such a talented player have such a negative impact? The answer all lies in playstyle. Brown isolated the seventh most out of any player last season, while scoring just 1.01 point per possession on isolation plays, which is less than the 1.15 average for an NBA offense. The issue for Brown is that, unlike Tatum, he simply doesn’t put enough pressure on defenses. His handle and ability to get to the rim in the half-court are inconsistent, meaning he doesn’t draw doubles, and doesn’t often set up his teammates for plays. While he is talented enough to score one-on-one, it grinds the offense to a halt and simply isn’t that efficient, which can help explain his poor on-off numbers.</p>
+      <p>For a team like the Sixers, Brown’s flaws will only be exacerbated. Maxey is used to being the lead guard and isolates a lot himself, Edgecombe shot nearly 15 times a game as a rookie, and Embiid is a former MVP, all of whom are going to have to now work around Brown. Of the Sixers’ starters, Maxey is the only one who can be a true playmaker, which could make the offense a shot-chucking disaster.</p>
+      <p>Why the Knicks Have the Edge:</p>
+      <p>To make matters worse for the Sixers, the team is reliant on Embiid’s health, which has proven anything but reliable. In his career, Embiid has missed more games than he’s played, and he has failed to appear in more than 40 games in any of the past 3 seasons. Embiid is needed to anchor the frontcourt, as the team doesn’t have another true center option, which is especially important in a series against the Knicks where the team needs somebody to guard Karl-Anthony Towns.</p>
+      <p>Philly has a lot of questions to answer with their new team, while the Knicks already have things figured out. The Knicks have the championship formula with all of their core pieces besides Mitchell Robinson returning. The pecking order is clear, their players know how to play off each other, and most importantly, they can play winning basketball no matter the stage. Brunson is undoubtedly a 1A option, while the Sixers arguably don’t have one at all. OG Anunoby and Mikal Bridges play seamlessly off of Brunson’s gravity, while the fit for the Sixers looks anything but natural.</p>
+      <p>The Knicks’ mix of talent and chemistry has proven it can make up for any talent advantage on paper, while the Sixers may be held back by the league’s biggest paradox, which is why the East still runs through the Orange and Blue.</p>
+         
+      `  
+}, 
+
+  
+  
+  
+  {
 
       title: "James Dolan kicks off the Knicks 2026 offseason with a masterclass in modern sports greed",
       tag: "news",
