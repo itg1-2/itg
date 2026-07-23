@@ -50,6 +50,34 @@ const articles = [
   // To add more articles, copy the block below and paste it
   // right after this one (still inside the [ ] brackets).
 
+
+{
+
+      title: "The Brunson Dilemma: Where does the NBA’s Finals MVP rank amongst NBA stars?",
+      tag: "news",
+      excerpt: "Brunson just ended the Knicks half-century-long Championship drought, but has never made an All-NBA first team. Where does the champion truly rank?",
+      date: "July 22, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>With over a month having passed since the Knicks Championship and a new season on the horizon, the question looms - where does Brunson rank amongst the league's best players?</p>
+      <p>The Brunson Dilemma:</p>      
+      <p>The question is incredibly polarizing. Brunson just led the Knicks to their first title in 50 years while leading the league in scoring in the playoffs and averaging 33 points, 5 assists, and 4 rebounds against the unanimous defensive player of the year. It feels like Brunson should be the best player in the NBA or at the least a consensus top-3.</p>
+      <p>But even after his championship run, many fans still consider Brunson to be closer to a fringe top-10 player than a bonafide top-5 superstar. When you look past Brunson’s electric post-season this year, his award case is fairly barren. Three All-Star appearances and three All-NBA second teams is nothing to scoff at, but it doesn’t scream Top-5 player either. Quite honestly, purely off talent, he isn’t quite on par with the top stars of the league.</p>  
+      <p>How Brunson Compares on Both Ends:</p>
+      <p>Brunson is a legitimate offensive engine. Top 10 in points, offensive win shares, and offensive box plus minus simply speaks for itself. Although any of these statistics, regular or advanced, proves that while he is an offensive force, he is not a transcendent offensive option like Jokic, Doncic, and Shai. Brunson is as good a scorer as almost anybody in the league, as he more than proved this postseason, and combines that with strong playmaking, putting him in the top 5 conversations.</p>      
+      <p>But basketball is played on both ends of the floor, and that’s where Brunson starts to lag behind. Brunson is undersized, making him prone to being targeted on defense, as Defensive Estimated Plus-Minus ranks the Knicks’ guard as a first percentile defender. But the defensive-liability narrative is somewhat overstated, as Brunson ranks in the 99th percentile of isolation defense, 77th percentile in pick-and-roll defense, and leads the NBA in charges drawn. Brunson isn’t a liability, but he is limited by his size and has been a net-negative on defense ever since he came into the league. While defense is not the end-all-be-all for guards, it certainly plays a factor when splitting hairs to decide the best player in the league.</p>
+      <p>Brunson’s offense is great, but not historically great, which is only hurt by his underwhelming defense. Two-way threats like Wembanyama, Antetokounmpo, Tatum, Shai, Edwards, and Cunningham can put out similar offensive production, while also disrupting opposing offenses. Meanwhile, offensive juggernauts like Doncic and Jokic simply outperform Brunson on the offensive end with their mix of elite scoring and playmaking, while providing similar if not better defense.</p> 
+      <p>Talent vs. Clutch - Where Does Brunson Rank:</p>
+      <p>Purely looking at skillset, Brunson is closer to falling out of the top-10 than he is to leading the league. But talent is only half the equation. Making sure that talent shows up on the biggest stage ultimately matters just as much, and it's where Brunson truly ascends.</p>      
+      <p>Jumping from tenth to first in points per game in the postseason is a testament to how Brunson performs when the lights are the brightest. Whether it was sparking the Eastern Conference Finals Game 1 comeback, dropping 36 points in the historic 29-point Game 4 comeback, or capping off his iconic Championship run by scoring 45 when the rest of the offense disappeared, Brunson was there when the Knicks needed him. Brunson proved he is a guy that puts the team on his back and he does it better than anybody else in the league.</p>
+      <p>By contrast, all of Brunson’s peers shrank when the lights shined the brightest. Wembanyama underwhelmed in the finals, Jokic played the worst series of his career against an injury-riddled Timberwolves team, Edwards played poorly for most of the Spurs series, and Shai couldn’t manage 20 points in crucial games against the Spurs. While other stars struggle in the spotlight, that's when Brunson plays his best ball - that’s why he’s Captain Clutch. The question must be asked, how valuable is talent if it doesn’t show up when you need it the most?</p> 
+      <p>Ultimately, the answer is not straightforward. There’s an argument to be made that if you could take any player to be your leader in a playoff series, Brunson would be the first pick. For me personally, I think Brunson ranks just outside the Top 5. Shai, Jokic, Giannis, Doncic, and Wembanyama are generational and truly transcendent talents and Brunson just isn’t quite there. Maybe he can outplay them in a playoff series, but if I am building a franchise I am taking any of these five ahead of Brunson. But after them, I don’t think anybody has a body of work that can compare with Brunson. While Brunson may not be a generational talent, redefining the game, he is a legitimate 1A option, a perfect leader for his team, and an NBA Champion.</p>
+      `  
+}, 
+
+
+
+  
 {
 
       title: "Have the Philadelphia 76ers Overtaken the Knicks as The King of the East?",
