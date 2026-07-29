@@ -53,7 +53,7 @@ const articles = [
 
 {
 
-      title: "Not So Superteam - Is the Philadelphia 76ers powerhouse to fail?",
+      title: "Not So Superteam - Is the Philadelphia 76ers powerhouse bound to fail?",
       tag: "news",
       excerpt: "The Knicks just proved how far roster construction and chemistry can take a team, but can the Sixers' uber-talented squad buck the trend?",
       date: "July 29, 2026",
