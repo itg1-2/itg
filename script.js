@@ -53,6 +53,37 @@ const articles = [
 
 {
 
+      title: "Not So Superteam - Is the Philadelphia 76ers powerhouse to fail?",
+      tag: "news",
+      excerpt: "The Knicks just proved how far roster construction and chemistry can take a team, but can the Sixers' uber-talented squad buck the trend?",
+      date: "July 29, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>LeBron’s move to the Philadelphia 76ers is historic. Beyond just one of the greatest players in the league’s history changing teams, we may be witnessing the formation of the most talented starting five in NBA history.</p>
+      <p>The Greatest Starting Five We Have Seen:</p>
+      <p>While the superteam Warriors of the 2010s had arguably two of the top-3 players in the league in Stephen Curry and Kevin Durant, the Sixers have four guys that can easily average 25+ points per game while also having a microwave scorer in VJ Edgecombe rounding out the starting five. Never before have we seen a lineup with this much all around scoring talent, which can form perhaps the most potent offense of all time, seemingly incapable of having an off-night.</p>
+      <p>The Sixers pair this dangerous offense with a fairly well-rounded defense. Maxey is the only weak point on that end of the floor, while the rest of the starters are all more than capable two-way players. LeBron and Embiid have All-Defensive Team honors to their names and Jaylen Brown is the self-proclaimed “best two-way player in the world.”</p>
+      <p>If this Sixers squad pans out, with their talent on both ends, there is not much any other team in the league can do to stop them.</p>
+      <p>Not So Superteams:</p>
+      <p>But looking at past superteams of this era, they rarely match their initial hype. Whether it was the Suns’ trio of 30 point scoring threats in Kevin Durant, Devin Booker, and Bradley Beal, or even LeBron’s earlier superteam of himself, Anthony Davis, and Russell Westbrook, superteams often fall well-short of expectations as simply stacking talent doesn’t guarantee success.</p>
+      <p>Poor chemistry, selfish interests, and injury risks often sabotage these talent-stacked teams and the Sixers look no different. The on-court fit certainly may be better than most superteams, as LeBron and Maxey are legitimate floor generals that can smooth out the offense, but I am still far from sold on the Sixers.</p>
+      <p>While the collection of scoring talent in the Sixers starting five is certainly potent, actually tapping into that potential is what is going to win games. Ultimately there is only one ball, meaning playing well off of it is essential for the offense. Just look at the Warriors super-team, where Steph, Klay, and Draymond all thrived off the ball in a motion-heavy offense, which made the addition of Kevin Durant able to work.</p>
+      <p>Are the Sixers Bound to Fail:</p>
+      <p>When looking at the Sixers you don’t see the same seamless fit. LeBron has historically run offenses in his own way, while Brown and Maxey are towards the top of the league in isolation frequency. Meanwhile Embiid is a former MVP who works best with consistent post touches and Edgecombe is a budding star that expects shots.</p>
+      <p>The on-court fit is truly only made worse by off-court personal interests. LeBron made the move to the Sixers with a championship in mind, and it is hard to imagine the self-declared GOAT settling for a supporting role when the lights are the brightest. Meanwhile, Brown is on a mission to prove he belongs in the top-tier of stars alongside Jayson Tatum, and by the on-off numbers, his game has historically detracted from his team. Now these egos are placed on top of an already established system with Maxey and Embiid in Philly alongside an ascending Edgecombe and the situation looks bound for disaster.</p>
+      <p>But even if the team can figure out how to balance competing interests, injuries remain a large concern, especially on the defensive end of the floor. Embiid’s injury history is no secret. He has missed more games in his career than he has played and has clearly started to slow down. If Embiid is out in the playoffs, the Sixers have no real option for guarding opposing bigs like Towns, Giannis, or Wembanyama. Even if Embiid is on the floor, it is far from guaranteed that he will be mobile enough to have a real defensive impact. LeBron hardly helps the matter as his age makes his availability a real concern, and even if he is playing, his defensive effort has been incredibly inconsistent over the past few seasons.</p>
+      <p>The Final Verdict:</p>
+      <p>Ultimately this Sixers team has too many question marks for me to feel confident in them, especially with how dominant of a run the Knicks just had. The offense has too many mouths to feed, the defense relies on the fragile health of its frontcourt, and the depth, especially at the center position, is cause for concern. Compare that to the battle-tested Knicks, who have a clear pecking-order, coherent chemistry, and have proven they can reach the mountain top.</p>
+      <p>The East is bound to be a blood bath next season, but even with Philly stacking the deck, I still have the Knicks making it back to the NBA Finals.</p>
+      `  
+}, 
+
+
+
+
+  
+{
+
       title: "The Brunson Dilemma: Where does the NBA’s Finals MVP rank amongst NBA stars?",
       tag: "news",
       excerpt: "Brunson just ended the Knicks half-century-long Championship drought, but has never made an All-NBA first team. Where does the champion truly rank?",
