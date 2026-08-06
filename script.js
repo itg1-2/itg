@@ -56,7 +56,7 @@ const articles = [
       title: "Eastern Conference Preview: A Way-Too-Early Playoff Picture",
       tag: "news",
       excerpt: "Where do the defending champions rank amongst a deep Eastern Conference?",
-      date: "August 6, 2026",
+      date: "August 5, 2026",
       author: "Andrew J. Vincenti",
       content: `
       <p>The Eastern Conference next season may be the strongest it has been since the 1990s. With legitimate threats like the 76ers and Knicks patrolling the top and dark horse teams like the Hawks and Pacers keeping teams on their toes, the Eastern Conference may be shedding its label as the weaker half.</p>
