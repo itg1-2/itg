@@ -53,6 +53,53 @@ const articles = [
 
 {
 
+      title: "Eastern Conference Preview: A Way-Too-Early Playoff Picture",
+      tag: "news",
+      excerpt: "Where do the defending champions rank amongst a deep Eastern Conference?",
+      date: "August 6, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>The Eastern Conference next season may be the strongest it has been since the 1990s. With legitimate threats like the 76ers and Knicks patrolling the top and dark horse teams like the Hawks and Pacers keeping teams on their toes, the Eastern Conference may be shedding its label as the weaker half.</p>
+      <p>With the conference looking to be a complete blood bath, here are my way too early predictions for the playoff and play-in seeding at the end of the regular season.</p>
+      <p>Playoffs:</p>
+      <p>No. 1 Seed: Boston Celtics</p>
+      <p>Some may be shocked to see the Celtics this high. While I think the Jaylen Brown trade will ultimately hurt them come playoff time, the Celtics still have an incredibly solid roster around Jayson Tatum. Derrick White and Payton Pritchard will have to take on bigger offensive roles, but Pritchard looks due to take a leap, and Paul George offers solid two-way help himself. Mitchell Robinson provides much-needed rim protection, and the bench with Hugo Gonzalez, Sam Hauser, and Neemias Queta looks incredibly solid.</p>
+      <p>The past few seasons, the Celtics have perennially been toward the top of the conference, even without Tatum. Boston is a regular season juggernaut, and with their best player returning, Robinson fortifying the front court, and the alleged analytical anchor in Jaylen Brown now gone, the Celtics look primed to seize their spot atop the conference again.</p>
+      <p>No. 2 Seed: Philadelphia 76ers</p>
+      <p>The 76ers are a hard team to predict. Their immense talent can just click from the jump and they cruise to a first-seed off of their immense talent. They pose an all-around scoring threat with a dynamic starting five that is rounded off by the playmaking LeBron and Maxey bring. The Sixers have the potential to be a true two-way wrecking ball that is simply too talented to beat.</p>
+      <p>But with superteams, that is often not how things go. Brown, Maxey, and Embiid all boast large usage rates, while LeBron has a tendency to run offense his way and VJ Edgecombe is going to look for shots as he develops. Combine this with Brown and his iso-heavy playstyle having a history of being a net-negative for his team, and you wonder if all this talent can actually play-off with each other and produce winning basketball. Not to mention the clear injury concerns that come with Embiid, who is essential to the team’s protection, yet has missed more games than he has played in his career. The Sixers are filled with question marks, and only time can truly answer them, but for now I have them at the No. 2 seed.</p>
+      <p>No. 3 Seed: New York Knicks</p>
+      <p>My ranking for the Knicks might be questionable at first. I have repeatedly called them my favorites to come out of the East, yet I put them at just third. The truth is the Knicks have never been an impressive regular season team, hovering around 50 wins ever since Brunson arrived in the 2022-23 season, and I don’t expect that to change.</p>
+      <p>The only stepback the team took was replacing Mitchell Robinson with Andre Drummond, which raises questions about the team’s defensive consistency. But ultimately, the Knicks have almost the same squad as last year, and they have been the third seed the past two seasons, so the third seed only seems fitting for next season as well.</p>
+      <p>No. 4 Seed: Toronto Raptors</p>
+      <p>The Raptors are the biggest wild card in the conference to me and everything hinges on whether the Kawhi Leonard trade goes through. Leonard looked elite last season, bringing the Clippers from 6-21 to looking like a legitimate playoff dark horse. Pairing Leonard with Scottie Barnes and RJ Barrett gives the Raptors one of the most intriguing big threes in the conference that can be elite on both ends of the floor.</p>
+      <p>But the Raptors still look a ways away from true championship contention. Immanuel Quickley is certainly a good player, but is he really the starting point guard on a championship team? Jakob Poeltl is a solid defensive anchor, but he will have to regularly match up with Embiid, Towns, and the Heat duo of Giannis and Adebayo. Outside of Collin Murray-Boyles, who had a strong rookie season and can see real starting minutes at the center, the bench looks rather bleak. The Raptors big 3 is promising, but the lackluster supporting cast keeps me from viewing them as legitimate contenders.</p>
+      <p>No. 5 Seed: Detroit Pistons</p>
+      <p>Some may be surprised to see the reigning No. 1 seed this low, but I really don't see the Pistons being any higher. The playoffs proved the Pistons to be frauds, as their half-court offense got exposed for being completely stale. The Pistons added a weapon in John Collins, and while he has been on a downward trajectory, he can add a new dynamic and floor spacing to the offense.</p>
+      <p>But the clear offseason story is the Jalen Duren situation, as the Pistons All-NBA center and defensive anchor looks destined to escape the Motor City after contract disputes. While Duren absolutely disappeared in the playoffs, the Pistons are losing their second option and now either have to slide the undersized Collins to the center or start Paul Reed. Being exposed as frauds and then taking this much of a step back really gives me little in Detroit to replicate their regular season success.</p>
+      <p>No. 6 Seed: Miami Heat</p>
+      <p>The Miami Heat is another team that is truly tough to call. The big-man duo of Giannis and Bam will certainly give any team trouble. Their offense is imposing enough, but the defensive rim protection from the front court pairing can completely shut down offense. Andrew Wiggins and Tim Hardaway Jr. are solid supporting pieces, and Bobby Portis off the bench can help space the floor.</p>
+      <p>But the holes in the depth are just too glaring. The team lacks a true third option, Davion Mitchell being the team’s floor general raises serious questions about the offense, and the bench is almost completely depleted after the Giannis trade. If they can find a way to make the offense work they can easily be a top 3 seed, but with current guard rotation I don’t know if I see that happening.</p>
+      <p>Play-In:</p>
+      <p>No. 7 Seed: Cleveland Cavaliers</p>
+      <p>To me, the Cavs were a mid tier team in the East last season and they are only getting worse.  Harden is bound to take a major step back with age, and the already inconsistent defense and wing depth is only going to get worse with the departures of Dean Wade and Keon Ellis. They have a proven solid core, which is why I won’t put them lower, but they clearly aren’t on the same level as the conference juggernauts and aren’t moving in the right direction either.</p>
+      <p>No. 8 Seed: Atlanta Hawks</p>
+      <p>I think the Hawks might be the most overlooked team in the conference and I can see them placing as high as the No. 4 or 5 seed if things really fall into place. Atlanta pushed the Knicks more than any other team in the postseason and while the loss of Kuminga hurts, the Hawks acquiring Lu Dort only further fortifies the defense and Aaron Wiggins and Devin Carter can help with potential bench depth.</p>
+      <p>While there is a clear ceiling to this team, as CJ McCollum, for as good as he was against the Knicks this past postseason, just simply isn’t a real first option on a playoff team looking to go far. But the Hawks will be a nightmare for opposing offenses, and with some McCollum magic, they have the chance to upset any team in the conference.</p>
+      <p>No. 9 Seed: Orlando Magic</p>
+      <p>The Magic look like the embodiment of a team stuck in NBA purgatory. Paolo Banchero and Franz Wagner are a solid duo but neither are quite at that superstar level. Desmond Bane has been a decent third option, but he hasn’t quite elevated the offense as expected, and the Magic gave up a haul of picks to acquire him, handicapping their ability to make future trades. The rest of the starting five and bench merely follows the trend. Not that good, not that bad, just kind of in the middle.</p>
+      <p>I really don’t see the Magic placing any higher than the No. 6 seed, but I also would be shocked to see them not at least in the play-in. Their historic Game 6 collapse against the Pistons last year in which they only scored 19 second-half points completely exposed the Magic’s incredibly stagnant offense, which I am sure a first time NBA head coach is unlikely to fix.</p>
+      <p>No. 10 Seed: Indiana Pacers</p>
+      <p>The No. 10 seed for me was a tight battle between the Pacers and the Wizards. I think the Pacers ultimately get the edge because they are a far more proven team. This core has made it to the finals and are playoff-tested.</p>
+      <p>Why I won’t put the Pacers any higher is that they looked like the worst team in the NBA last season and one guy coming off an achilles tear isn’t going to suddenly ascend them to playoff contention. The Pacers’ Finals run may have just been catching magic in a bottle and not having Myles Turner to anchor the defense is a major hit.</p>
+      <p>Looking Ahead:</p>
+      <p>Ultimately the East is as stacked and competitive as it has been in years. The teams at the top all have their own questions to answer this season, while the teams after all flash some promise. The conference is incredibly deep, with even solid teams like the Wizards and Hornets looking like they may be on the outside looking in, even with talented pieces.</p>
+      <p>Only time will tell whether my predictions hold true, but for the first time in a long time the Eastern Conference is looking like can’t-miss basketball.</p>      
+      `  
+},   
+
+{
+
       title: "Not So Superteam - Is the Philadelphia 76ers powerhouse bound to fail?",
       tag: "news",
       excerpt: "The Knicks just proved how far roster construction and chemistry can take a team, but can the Sixers' uber-talented squad buck the trend?",
