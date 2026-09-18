@@ -53,6 +53,31 @@ const articles = [
 
   {
 
+      title: "A Double Standard Dilemma: The Kawhi Leonard Scandal shows the NBA has a Superstar Problem",
+      tag: "news",
+      excerpt: "While the Clippers faced suspensions and lost draft picks, the player in the middle of it all got away with a slap on the wrist.",
+      date: "September 18, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>With the recent conclusion of the NBA’s Investigation into the Los Angeles Clippers and Kawhi Leonard circumventing the salary cap through no-show endorsement deals, the NBA needed to make a statement. Both the Clippers and Leonard had blatantly violated the league’s rules and anything less than laying the hammer down would simply set the precedent that other teams can do the same.<p>
+      <p>An Iron Fist For The Clippers:<p>
+      <p>When it came to dealing with the Clippers organization, Commissioner Adam Silver delivered a historic level of punishment. The organization was fined $30 million, owner Steve Ballmer was suspended from team activities for a year, the team is now under a five year monitoring program, and the Clippers also have to sacrifice five first round picks starting in 2029. Silver severely punished the Clippers financially, temporarily pushed the owner out of the league, hampered the team’s ability to compete in the future, and is monitoring the organization to make sure this doesn’t happen again.<p>
+      <p>Silver did what he needed to do as commissioner. He punished the Clippers for violating the rules and sent a message that no other team will go unpunished for circumventing league rules.<p>
+      <p>But punishing the Clippers is only half the story. When it came to punishing Kawhi Leonard, the NBA had a slightly different approach.<p>
+      <p>A Slap On The Wrist For Kawhi:<p>
+      <p>The ultimate punishment given to Kawhi Leonard for blatantly violating the league’s salary cap rules was… a $700 thousand fine? While to those of us who are not multi-millionaire athletes, that kind of fine is bankrupting, to Kawhi Leonard it is a mere slap on the wrist. With Kawhi’s current salary, worth over $50 million per year, it will take him not even two full games to pay back his fine.<p>
+      <p>While the NBA hammered the Clippers ownership with suspensions, eight-figure fines, and the loss of valuable draft capital that affects their ability to compete in the long-term, Kawhi Leonard got away with a fine that takes him 54 minutes and 46 seconds of game time to make back. You would think the two parties committed vastly different crimes rather than co-conspirators that worked hand-in-hand to try and pull off one of the biggest scandals in recent NBA history.<p>
+      <p>The Double Standard Dilemma Is Nothing New:<p>
+      <p>While the blatant unfairness and double standards are problematic enough, the biggest issue is the precedent that it sets and what that means for the integrity of the league moving forward.<p>
+      <p>The NBA sent its message loud and clear. If you are an irrelevant player or a franchise, don’t even think about violating the NBA’s rules. We are seeing it now with the Clippers, and we have seen it before with the suspension of Terry Rozier and indefinite ban of Jontay Porter.<p>
+      <p>But on the other end, when it comes to dealing with the league’s biggest stars, the NBA seems to have a soft spot. Of course, Leonard got off with a mild reprimand, but this is not an isolated incident. The NBA’s Collective Bargaining Agreement strictly prohibits public trade demands, yet James Harden got off with a fine and no suspension after publicly demanding a trade even calling President of Basketball Operations Darryl Morey a “liar.” It was the same story with Anthony Davis, who got off with a $50,000 fine and no suspension after a very public display to force his way out of New Orleans and to the Lakers including wearing the infamous “That’s All Folks” shirt.<p>
+      <p>But one of the most egregious examples of preferential star treatment was the NBA’s handling of Giannis Antetokounmpo’s Kalshi partnership. After peddling rumors and publicly going back and forth about his upcoming decision of whether to stay in Milwaukee, Antetokounmpo announced his partnership with Kalshi a day after the end of the NBA trade deadline. One of the league’s biggest stars very clearly stoked trade rumors that manipulated a betting market that saw over $23 million being traded to create promotion for his partnership. With the ongoing controversy regarding betting in the NBA, it would be expected that the NBA would reprimand Antetokounmpo and possibly even launch an investigation into something that very well could have been a crime. But instead, Silver defended the NBA’s golden child and his right to partner with sports-betting companies.<p>
+      <p>The Kawhi-Leonard ruling is emblematic of a very real issue in the NBA. There is a clear double-standard that exists for superstars that are essential to the league’s product, which only emboldens them to violate league rules and raises real questions about the integrity of the NBA as a whole.<p>
+      `  
+}, 
+
+  {
+
       title: "The Parity Paradox: Is too much Parity Killing the NBA?",
       tag: "news",
       excerpt: "With eight new teams hoisting the Larry O’Brien in the past eight seasons, the NBA is turning its back on what made it successful in the first place.",
