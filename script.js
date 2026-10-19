@@ -53,6 +53,38 @@ const articles = [
 
    {
 
+      title: "6 Storylines to Watch for the Knicks 2026-27 Season",
+      tag: "news",
+      excerpt: "From an upcoming title defense to filling a front court void, the Knicks are entering the season with plenty to prove.",
+      date: "October 18, 2026",
+      author: "Andrew J. Vincenti",
+      content: `
+      <p>With the 2026-27 season just a day away, here are the six biggest storylines to watch out for throughout the season.<p>
+      <p>1.The Knicks Title Defense:<p>
+      <p>The obvious storyline for the Knicks heading into the season is their upcoming title defense. After years of being fringe contenders and suffering through playoff heartbreaks with Brunson at the helm, the Knicks finally broke through, making it to the Finals and winning it all in one go. But not only did the Knicks win, they dominated, setting new postseason records for both point and net rating differential in playoff history.<p>
+      <p>Now the question arises - can the Knicks do it again? In the current NBA landscape, hoisting the Larry O’Brien in two straight seasons has proved to be as challenging as ever, as the league has had eight different champions in the past eight seasons. Fresh off of a championship, the Knicks are now the team to beat, making every matchup even tougher. But the challenge should be welcomed, as the Knicks look to prove their postseason dominance is the new standard and not just a flash in the pan.<p>
+      <p>2.Brunson MVP Campaign:<p>
+      <p>Before the postseason, Brunson was certainly regarded as a very good point guard and player in the league, but few were putting him in the conversation of being truly one of the league’s few truly elite players. Many doubted if he was a true “1A” that could lead a team to the top, but fast-forward to now and he has a Finals MVP under his belt, as well as several ESPY Awards, including Best Championship Performance, Best NBA Player, and Best Athlete in Men’s Sports.<p>
+      <p>Brunson became one of just a handful of guards in NBA history to lead a team to an NBA Championship, as the question has expanded to where Brunson placed not just in the league, but amongst all-time point guards. While Brunson has proved to be a true playoff riser, he has not been able to reproduce this level of production for a full 82 game season. Brunson has never made an All-NBA first team and the Knicks have hovered around the 50-win mark during his time in the Big Apple. An MVP is one of the few awards not in Brunson’s trophy case, and an iconic regular season campaign from Captain Clutch can truly propel him into the upper echelon of not only all-time great point guards, but the best players to ever grace the hardwood.<p>
+      <p>3.The Contract Drama:<p>
+      <p>News has been circulating surrounding the Knicks’ impending free agents, namely Karl-Anthony Towns and Josh Hart. Whether the Knicks retain key championship pieces for the foreseeable is enough of a storyline, but how rumors and contract drama affect the locker room and the upcoming season will be an even more immediate issue.<p>
+      <p>While Towns told the media that head coach Mike Brown immediately addressed the ongoing contract negotiations in a team practice to emphasize understanding and team unity, only time will tell how tensions will play out alongside the ups and downs of an 82-game season.<p>
+      <p>4.KAT’s Playoff Playmaking:<p>
+      <p>A highlight of the Knicks’ historic postseason run was Towns stepping up as facilitator to help the Knicks to the highest offensive rating in the postseason. Towns made the leap from three assists per game in the regular season to five assists per game in the postseason, emerging as a secondary facilitator behind Brunson. The Knicks big man accepted his role as a playmaker, taking under 10 shots per game, something he has never done in any regular season or postseason of his career.<p>
+      <p>Towns’ willingness to sacrifice shots to set up his teammates added a new dynamic that made the offense so lethal. Whether he will remain in his pass-first playoff role or come back to shooting around 15 shots per game as he has done throughout his career will be a question for Coach Brown. But in a contract year with ownership refusing seemingly undervaluing its starting center’s production, Towns may not be as willing to be a selfless facilitator as he was during the championship run.<p>
+      <p>5.OG Anunoby’s All-Star Leap:<p>
+      <p>With OG Anunoby’s iconic tip-in to cement a legendary Finals Performance and playoff run propelling him into media superstardom, it is easy to forget the 29-year-old small forward has never even made an All-Star team. Anunoby is coming off of a season where he averaged a respectable but modest 16.7 points per game, a mark on par with respectable rookies like VJ Edgecomb and bonafide role players like Ryan Rollins.<p>
+      <p>But in the playoffs, Anunoby was playing at a new level, averaging 20 points per game, connecting on nearly half of his three-point attempts, and still providing elite, lockdown defense. While Anunoby has already clinched multiple All-Defensive selections, if he can tap into his elevated postseason form, he may finally be able to add an All-Star selection to his trophy case as well.<p>
+      <p>6.Filling the Mitch Void:<p>
+      <p>While the Knicks were fortunate to hang on to almost all of their championship core, owner James Dolan refused to dip into the second apron to re-sign Mitchell Robinson, who ultimately signed with the rival Boston Celtics. While Robinson has averaged just 36 games played over the past three seasons on limited minutes, when he’s on the court, his presence on the glass and protecting the rim is undeniable.<p>
+      <p>To fill the void, the Knicks picked up Andre Drummond, who has posted strong flashes in the postseason, especially on the boards, but he has historically been a shaky defender. While Towns has been much improved recently, he has historically been a liability on the defensive end and has had troubles staying out of foul trouble, which could force a declining Drummond into playing crucial minutes. The front court depth and defense could prove to be a major source of concern for a Knicks team looking to be the first team to repeat this decade.<p>
+      <p>Looking Ahead:<p>
+      <p>As the Knicks head into the 2026-27 season with as much momentum as ever, there is plenty to look forward to at the Garden.<p>   
+      `  
+}, 
+  
+   {
+
       title: "“It don’t look good”:  Karl-Anthony Towns and the Knicks are $76 million apart in contract negotiations",
       tag: "news",
       excerpt: "In the Knicks’ 2026 championship run, Towns proved he was worth more than the box score. James Dolan, desperate to avoid the second apron, won’t pay him like it.",
