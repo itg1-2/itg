@@ -499,19 +499,44 @@ function showPage(name) {
   window.scrollTo(0, 0);
 }
 
-function openArticle(index) {
+function articleSlug(article) {
+  return article.title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function openArticle(index, updateUrl = true) {
   currentArticle = articles[index];
-  const page = document.getElementById('page-article');
 
-  document.getElementById('article-tag').textContent = currentArticle.tag;
-  document.getElementById('article-title').textContent = currentArticle.title;
-  document.getElementById('article-meta').textContent = currentArticle.date + ' · ' + currentArticle.author;
-  document.getElementById('article-body').innerHTML = currentArticle.content || '<p>' + currentArticle.excerpt + '</p>';
+  if (!currentArticle) return;
 
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-  page.classList.add('active');
+  const page = document.getElementById("page-article");
+
+  document.getElementById("article-tag").textContent =
+    currentArticle.tag;
+  document.getElementById("article-title").textContent =
+    currentArticle.title;
+  document.getElementById("article-meta").textContent =
+    currentArticle.date + " · " + currentArticle.author;
+  document.getElementById("article-body").innerHTML =
+    currentArticle.content || "<p>" + currentArticle.excerpt + "</p>";
+
+  document.querySelectorAll(".page").forEach(p =>
+    p.classList.remove("active")
+  );
+  document.querySelectorAll(".nav-links a").forEach(a =>
+    a.classList.remove("active")
+  );
+
+  page.classList.add("active");
   window.scrollTo(0, 0);
+
+  if (updateUrl) {
+    window.location.hash = "article/" + articleSlug(currentArticle);
+  }
+}
+
 }
 
 function renderArticles(list, containerId) {
@@ -539,3 +564,20 @@ function renderArticles(list, containerId) {
 // Initial render
 renderArticles(articles, 'home-articles');
 renderArticles(articles, 'news-articles');
+
+function handleArticleHash() {
+  const match = window.location.hash.match(/^#article\/(.+)$/);
+
+  if (!match) return;
+
+  const index = articles.findIndex(
+    article => articleSlug(article) === match[1]
+  );
+
+  if (index !== -1) {
+    openArticle(index, false);
+  }
+}
+
+window.addEventListener("hashchange", handleArticleHash);
+handleArticleHash();
