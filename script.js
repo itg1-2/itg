@@ -537,7 +537,6 @@ function openArticle(index, updateUrl = true) {
   }
 }
 
-}
 
 function renderArticles(list, containerId) {
   const el = document.getElementById(containerId);
